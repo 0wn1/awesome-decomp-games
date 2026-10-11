@@ -996,5 +996,49 @@
    600
   ],
   "screenshot_score": 5
+ },
+ "https://froydinger.github.io/claude-of-duty/": {
+  "screenshot": "screenshots/browser-claude-of-duty-vibe-slops-ii-froydinger-mirror.jpg",
+  "screenshot_source": "live gameplay capture (headless Chrome) 2026-10-11",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 4,
+  "locked": true,
+  "screenshot_reviewed": true
+ },
+ "https://goofyahhbro69420.github.io/Black-Ops-2/": {
+  "screenshot": "screenshots/browser-claude-of-duty-vibe-slops-ii-goofyahhbro69420-mirr.jpg",
+  "screenshot_source": "live capture of title screen (headless Chrome) 2026-10-11",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3,
+  "locked": true,
+  "screenshot_reviewed": true
+ },
+ "https://theeagler1234-alt.github.io/kino-der-toten/": {
+  "screenshot": "screenshots/browser-kino-der-toten-theeagler1234-mirror.jpg",
+  "screenshot_source": "live gameplay capture (headless Chrome) 2026-10-11",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 4,
+  "locked": true,
+  "screenshot_reviewed": true
+ },
+ "https://goofyahhbro69420.github.io/COD-ZOMBIES/": {
+  "screenshot": "screenshots/browser-kino-der-toten-goofyahhbro69420-mirror.jpg",
+  "screenshot_source": "live gameplay capture (headless Chrome) 2026-10-11",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 4,
+  "locked": true,
+  "screenshot_reviewed": true
  }
 }

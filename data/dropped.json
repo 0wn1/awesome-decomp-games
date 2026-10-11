@@ -458,8 +458,8 @@
  {
   "title": "Barbarian",
   "url": "http://barbarian.1987.free.fr/indexEN.htm",
-  "status": 200,
-  "reason": "awesome-game-remakes-only, <20 stars"
+  "status": 0,
+  "reason": "dead link"
  },
  {
   "title": "Battle Arena Toshinden",
@@ -812,8 +812,8 @@
  {
   "title": "Castlevania: Portrait of Ruin",
   "url": "https://github.com/WINDROID-EMU/Castlevania-Portrait-of-Ruin-Recomp",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
+  "status": 404,
+  "reason": "dead link"
  },
  {
   "title": "Castlevania: Symphony of the Night",
@@ -868,12 +868,6 @@
   "url": "https://sourceforge.net/projects/chaosesqueanthology",
   "status": 200,
   "reason": "awesome-game-remakes-only, <20 stars"
- },
- {
-  "title": "Cheese Cube (Black Ops III custom map)",
-  "url": "http://cheese-cube.pages.dev",
-  "status": 0,
-  "reason": "dead link"
  },
  {
   "title": "Chibi-Robo!",
@@ -934,6 +928,12 @@
   "url": "https://github.com/Pendrokar/civizard_decomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "Claude of Duty: Vibe Slops II",
+  "url": "http://vibeslops.luckeysystems.com",
+  "status": 0,
+  "reason": "dead link"
  },
  {
   "title": "Coaster",
@@ -1172,8 +1172,8 @@
  {
   "title": "Dark Cloud 2",
   "url": "https://github.com/Jeffiest/PS2-DC2Recomp",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
+  "status": 404,
+  "reason": "dead link"
  },
  {
   "title": "darknova2",
@@ -1754,8 +1754,8 @@
  {
   "title": "Fable II",
   "url": "https://github.com/TheSaltTrader/A-Legend-Never-dies---Fable-2-Recompilation",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
+  "status": 404,
+  "reason": "dead link"
  },
  {
   "title": "Fable II",
@@ -2552,7 +2552,7 @@
  {
   "title": "Hedgewars",
   "url": "http://webwars.link",
-  "status": 400,
+  "status": 0,
   "reason": "dead link"
  },
  {
@@ -2890,12 +2890,6 @@
   "url": "https://github.com/azurejoga/kh-recomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Kino der Toten (Zombies)",
-  "url": "http://kino-der-toten.pages.dev",
-  "status": 0,
-  "reason": "dead link"
  },
  {
   "title": "Kirby & the Amazing Mirror",
@@ -3612,12 +3606,6 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
-  "title": "Metal Gear Solid: The Twin Snakes",
-  "url": "https://github.com/alphanu1/msg-twinsnakes-recomp",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
   "title": "Metal Mutant-web",
   "url": "https://github.com/kznsq/metal-mutant-web",
   "status": 200,
@@ -3692,12 +3680,6 @@
  {
   "title": "Midway Arcade Origins",
   "url": "https://github.com/sp00nznet/midway-ps3",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Miki's World + Miki's World 2",
-  "url": "https://github.com/yanm1103/mikisworld",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
@@ -3780,16 +3762,10 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
-  "title": "Moon (Zombies)",
-  "url": "http://moon-zombies.pages.dev",
-  "status": 0,
-  "reason": "dead link"
- },
- {
   "title": "Mortal Kombat (2011)",
   "url": "https://github.com/WINDROID-EMU/MK9-RECOMP",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
+  "status": 404,
+  "reason": "dead link"
  },
  {
   "title": "Mortal Kombat 4",
@@ -3958,6 +3934,12 @@
   "url": "https://github.com/alexbeavs-ps1-ports/nightmare-creatures-recomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "Ninja Gaiden II",
+  "url": "https://github.com/TheSaltTrader/Ninja-s-Dawn---A-Ninja-Gaiden-2-Recompilation-Project",
+  "status": 404,
+  "reason": "dead link"
  },
  {
   "title": "Nintendo Gamecube's NetworkBasePackage",
@@ -4466,7 +4448,7 @@
  {
   "title": "PopRE Bug Tracker",
   "url": "https://www.populous3.info/bugs/my_view_page.php",
-  "status": 403,
+  "status": 200,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
@@ -5840,8 +5822,8 @@
  {
   "title": "Super Mario Sunshine",
   "url": "https://github.com/Astrr00/SunshineRecomp",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
+  "status": 404,
+  "reason": "dead link"
  },
  {
   "title": "Super Mario World 2: Yoshi's Island",
@@ -6396,6 +6378,12 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
+  "title": "The Simpsons Arcade Game (PS3)",
+  "url": "https://recompiledgames.com/the-simpsons-arcade-game-ps3-recompiled",
+  "status": 404,
+  "reason": "dead link"
+ },
+ {
   "title": "The Sims 2 PSP",
   "url": "https://github.com/DaniKH1/ts2psp-decomp",
   "status": 200,
@@ -6484,6 +6472,12 @@
   "url": "https://github.com/sp00nznet/tokyojungle",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "Tomb Raider (OpenLara)",
+  "url": "http://xproger.info/projects/OpenLara",
+  "status": 0,
+  "reason": "dead link"
  },
  {
   "title": "Tomba! 2: The Evil Swine Return",
@@ -6662,12 +6656,6 @@
  {
   "title": "Turok 2: Seeds of Evil",
   "url": "https://github.com/SirBraga/turok2-recomp",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Turok: Rage Wars",
-  "url": "https://github.com/melalawi/ragewars-decomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
@@ -6914,12 +6902,6 @@
  {
   "title": "War in Middle Earth",
   "url": "https://github.com/antxiko/WarinMiddleEarth-MSX-disassembly",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "War of the Monsters",
-  "url": "https://github.com/yanm1103/War_of_the_Monsters_recomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },

@@ -105,6 +105,7 @@ def main():
         url = g.get("repo") and f"https://github.com/{g['repo']}" or r["url"]
         if re.search(r"/tree/", r["url"]): url = r["url"]  # monorepo sub-folder entries
         key = url.lower()
+        if not ok and any(nk(r.get(k)) in {nk(x) for x in over.get("browser_verified", {})} for k in ("url", "play_url")): ok = True
         if not ok: dropped.append({"title": r["title"], "url": r["url"], "status": r.get("link_status"), "reason": "dead link"}); continue
         if nk(key) in excl or nk(r["url"]) in excl: continue
         srcs = r["sources"]
@@ -143,6 +144,8 @@ def main():
         if "title" in ov and "game_key" not in ov:
             e["game_key"] = re.sub(r"[^a-z0-9]+", "", re.sub(r"\(.*?\)", "", e["title"].lower()))
         bst = bstatus.get(e.get("play_url") or "", {})
+        bver = {nk(k): v for k, v in over.get("browser_verified", {}).items()}.get(nk(e.get("play_url")))
+        if bver: bst = {"ok": True}; e["verified_note"] = bver
         e["play_status"] = None if not e.get("play_url") else ("ok" if bst.get("ok", True) else (bst.get("reason") or "not working"))
         e["ratings"], e["score"] = rate(e)
         m = media.get(e["url"], {})
@@ -150,7 +153,7 @@ def main():
         e["screenshot_score"] = int(m.get("screenshot_score") or (3 if e["screenshot"] else 0))
         e["note"] = m.get("note")
         pst = r.get("links_checked", {}).get("play_url", r.get("link_status") or 0)
-        e["browser_playable"] = bool(e.get("play_url")) and (200 <= pst < 400 or pst in (401, 403, 429)) and bst.get("ok", True)
+        e["browser_playable"] = bool(e.get("play_url")) and (bool(bver) or 200 <= pst < 400 or pst in (401, 403, 429)) and bst.get("ok", True)
         seen[key] = e; out.append(e)
     # top playable picks: pinned ranks from data/media.json first, then fill by score (one per game)
     picks, games = [], set()

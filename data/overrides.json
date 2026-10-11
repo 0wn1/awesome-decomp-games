@@ -231,5 +231,8 @@
   "http://johnimril.github.io/diablo_web": {
    "title": "Diablo (diablo_web)"
   }
+ },
+ "browser_verified": {
+  "https://ovz-game-production.up.railway.app": "Verified working by Igor on 2026-10-11 (Cloudflare traffic check precedes the game)."
  }
 }

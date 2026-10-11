@@ -25,5 +25,45 @@
   "type": "browser",
   "source": "x:2108068632991256995",
   "description": "Collection of WebAssembly game ports incl. GTA and Minecraft builds."
+ },
+ {
+  "title": "Claude of Duty: Vibe Slops II (froydinger mirror)",
+  "url": "https://froydinger.github.io/claude-of-duty/",
+  "play_url": "https://froydinger.github.io/claude-of-duty/",
+  "platform": "PC",
+  "type": "browser",
+  "source": "x:2108068632991256995",
+  "ai_flag": true,
+  "description": "Unofficial mirror of the taken-down original (removed after a copyright notice). AI-built Three.js reconstruction of Black Ops II multiplayer (listed as 'Black Ops 2' in the X post)."
+ },
+ {
+  "title": "Claude of Duty: Vibe Slops II (GoofyAhhBro69420 mirror)",
+  "url": "https://goofyahhbro69420.github.io/Black-Ops-2/",
+  "play_url": "https://goofyahhbro69420.github.io/Black-Ops-2/",
+  "platform": "PC",
+  "type": "browser",
+  "source": "x:2108068632991256995",
+  "ai_flag": true,
+  "description": "Unofficial mirror of the taken-down original (removed after a copyright notice). AI-built Three.js reconstruction of Black Ops II multiplayer (Hijacked, Nuketown)."
+ },
+ {
+  "title": "Kino der Toten (theeagler1234 mirror)",
+  "url": "https://theeagler1234-alt.github.io/kino-der-toten/",
+  "play_url": "https://theeagler1234-alt.github.io/kino-der-toten/",
+  "platform": "PC",
+  "type": "browser",
+  "source": "x:2108068632991256995",
+  "ai_flag": true,
+  "description": "Unofficial mirror of the taken-down original (removed after a copyright notice). Three.js reconstruction of the Black Ops Zombies map, solo survival."
+ },
+ {
+  "title": "Kino der Toten (GoofyAhhBro69420 mirror)",
+  "url": "https://goofyahhbro69420.github.io/COD-ZOMBIES/",
+  "play_url": "https://goofyahhbro69420.github.io/COD-ZOMBIES/",
+  "platform": "PC",
+  "type": "browser",
+  "source": "x:2108068632991256995",
+  "ai_flag": true,
+  "description": "Unofficial mirror of the taken-down original (removed after a copyright notice). Three.js reconstruction of the Black Ops Zombies map, solo survival."
  }
 ]
