@@ -51,7 +51,22 @@
   "https://vibeslops.luckeysystems.com",
   "https://github.com/XProger/OpenLara",
   "http://xproger.info/projects/OpenLara",
-  "https://xproger.info/projects/OpenLara"
+  "https://xproger.info/projects/OpenLara",
+  "https://github.com/Matteo842/CrashBandicoot-Launcher",
+  "https://github.com/ZDoom/gzdoom",
+  "https://github.com/mgba-emu/mgba",
+  "https://github.com/open-goal/launcher",
+  "https://github.com/LoreanXavier/pt-pc",
+  "https://github.com/Gzh0821/pvzg_site",
+  "https://github.com/re-rac/rerac-launcher",
+  "https://github.com/qurious-pixel/SMAS_Launcher",
+  "https://github.com/chasem-dev/sms-launcher",
+  "https://github.com/RadzPrower/Super-Metroid-Launcher",
+  "https://github.com/RadzPrower/Zelda-3-Launcher",
+  "https://github.com/UZDoom/UZDoom",
+  "https://github.com/TeamWheelWizard/WheelWizard",
+  "https://github.com/TeamGDB/Yakumo",
+  "https://github.com/xander-haj/Z3R-Launcher"
  ],
  "set": {
   "https://github.com/Warzone2100/warzone2100": {
@@ -237,5 +252,22 @@
  },
  "exclude_patterns": [
   "openlara"
+ ],
+ "quiver_exclude": [
+  "mgba",
+  "doom-gzdoom",
+  "doom-uzdoom",
+  "opengoal-launcher-opengoal-launcher",
+  "mario-kart-wii-wheel-wizard",
+  "p-t-p-t-for-pc",
+  "plantsvszombies2-pvz2gardendless",
+  "monsterhunterportable3rdhdver-yakumo",
+  "crashbandicoot-crashbandicootlauncher",
+  "supermarioallstars-smaslauncher",
+  "super-mario-sunshine-sms-launcher",
+  "supermetroid-snesrevsupermetroidlauncher",
+  "thelegendofzeldaalinktothepast-snesrevzelda3launcher",
+  "thelegendofzeldaalinktothepast-z3rlauncher",
+  "ratchet-clank-rerac-launcher"
  ]
 }

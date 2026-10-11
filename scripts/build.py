@@ -115,6 +115,8 @@ def main():
         only_fyi = srcs == ["recomp.fyi"]
         if only_fyi and (stars < 10 or g.get("fork")):
             dropped.append({"title": r["title"], "url": url, "status": r.get("link_status"), "reason": "recomp.fyi-only, <10 stars or fork"}); continue
+        if srcs == ["quiver"] and (stars or 0) < 100 and "quiver-launcher" not in url:
+            dropped.append({"title": r["title"], "url": url, "status": r.get("link_status"), "reason": "quiver-only, <100 stars"}); continue
         if srcs == ["awesome-game-remakes"] and (stars or 0) < 20:
             dropped.append({"title": r["title"], "url": url, "status": r.get("link_status"), "reason": "awesome-game-remakes-only, <20 stars"}); continue
         if key in seen:  # canonical-URL dedupe (renamed repos)
@@ -194,6 +196,7 @@ SOURCES = [
  {"name": "decomp.dev", "url": "https://decomp.dev/"},
  {"name": "recompiledgames.com", "url": "https://recompiledgames.com/"},
  {"name": "recomp.fyi (entries with >=10 stars)", "url": "https://recomp.fyi/"},
+ {"name": "Quiver Launcher catalog (entries with >=100 stars)", "url": "https://quiverlauncher.com/"},
  {"name": "radek-sprta/awesome-game-remakes", "url": "https://github.com/radek-sprta/awesome-game-remakes"},
  {"name": "X post by @RadiantOpti (browser games list)", "url": "https://x.com/RadiantOpti/status/2108068632991256995"},
  {"name": "BlueInterlude/awesome-recompilations", "url": "https://github.com/BlueInterlude/awesome-recompilations"},

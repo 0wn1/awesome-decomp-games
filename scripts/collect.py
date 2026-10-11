@@ -19,6 +19,7 @@ PLAT = {
  "mega drive":"Genesis","sega genesis / mega drive":"Genesis","megadrive":"Genesis","saturn":"Saturn",
  "dreamcast":"Dreamcast","dc":"Dreamcast","sega cd":"Sega CD","master system":"Master System",
  "game gear":"Game Gear","android":"Mobile","ios":"Mobile","mobile":"Mobile","j2me":"Mobile",
+ "gcn":"GameCube","gen":"Genesis","gg":"Game Gear","vb":"Virtual Boy","32x":"32X","ps5":"PS5",
  "mac":"Mac","amiga":"Amiga","atari 2600":"Atari 2600","pc engine":"PC Engine","n-gage":"N-Gage",
 }
 def norm_plat(p):
@@ -150,6 +151,18 @@ if "--no-recompfyi" not in sys.argv and have("recompfyi.html"):
         add("recomp.fyi", g.group(1), proj.group(1), sysm.group(1) if sysm else "",
             {"decomp": "decomp", "recomp": "recomp", "port": "port"}.get(t, ""), "",
             {"recompfyi_activity": act.group(1) if act else None})
+
+# 7b. Quiver Launcher catalog (raw/quiver.json from scripts/fetch_quiver.py); build.py keeps quiver-only entries with 100+ stars
+if have("quiver.json"):
+    QH = {"recomp": "recomp", "recompilation": "recomp", "decomp": "decomp", "decompilation": "decomp", "recreation": "remake", "port": "port", "tool": "tool"}
+    _qx = set(json.load(open(os.path.join(ROOT, "data", "overrides.json"))).get("quiver_exclude", []))
+    for q in json.load(open(os.path.join(RAW, "quiver.json"))):
+        if q["slug"] in _qx: continue
+        hint = next((QH[t] for t in q.get("tags", []) if t in QH), "remake" if q.get("consoles") == ["pc"] else "")
+        t = q["name"] if not q.get("project") or re.sub(r"[^a-z0-9]", "", q["project"].lower()) in re.sub(r"[^a-z0-9]", "", q["name"].lower()) else f'{q["name"]} ({q["project"]})'
+        r = add("quiver", t, "https://github.com/" + q["repo"].strip().rstrip("."), (q.get("consoles") or [""])[0], hint, q.get("description", ""),
+                {"ai_level": q.get("aiLevel")})
+        if r and q.get("aiLevel") in ("assisted", "generated"): r["ai_flag"] = True
 
 # 8. manual additions (data/additions.json): [{"title","url","platform","type","description"}]
 ap = os.path.join(ROOT, "data", "additions.json")
