@@ -1079,5 +1079,14 @@
    720
   ],
   "screenshot_score": 3
+ },
+ "https://github.com/troyedwardsjr/z2rs": {
+  "screenshot": "screenshots/browser-troyedwardsjr-z2rs.jpg",
+  "screenshot_source": "live capture of https://z2rs.com/",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
  }
 }

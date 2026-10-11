@@ -138,7 +138,8 @@ def main():
          "homepage": g.get("homepage") or None, "og_image": g.get("og_image"), "thumb_src": r.get("thumb_src"),
          "progress": r.get("progress"), "progress_functions": r.get("progress_functions"), "decompdev_url": r.get("decompdev_url"),
          "play_url": r.get("play_url"), "info_url": r.get("info_url"), "needs_assets": r.get("assets"),
-         "multiplayer": r.get("multiplayer"), "mod_group": r.get("mod_group"), "host": r.get("host"), "guest": r.get("guest"), "ai_flag": r.get("ai_flag", False),
+         "multiplayer": r.get("multiplayer"), "mod_group": r.get("mod_group"), "host": r.get("host"), "guest": r.get("guest"),
+         "reddit_post": r.get("reddit_post"), "reddit_user": r.get("reddit_user"), "reddit_upvotes": r.get("reddit_upvotes"), "reddit_comments": r.get("reddit_comments"), "ai_flag": r.get("ai_flag", False),
          "sources": sorted(srcs), "link_status": r.get("link_status"), "link_ok": ok, "checked_at": r.get("checked_at"),
         }
         e["type"] = classify(r, text, tu)
@@ -206,6 +207,7 @@ SOURCES = [
  {"name": "radek-sprta/awesome-game-remakes", "url": "https://github.com/radek-sprta/awesome-game-remakes"},
  {"name": "X post by @RadiantOpti (browser games list)", "url": "https://x.com/RadiantOpti/status/2108068632991256995"},
  {"name": "bailo167/awesome-game-mashups (CC0; mods & mashups with 25+ stars)", "url": "https://github.com/bailo167/awesome-game-mashups"},
+ {"name": "r/recomps and r/decomps (established projects, hand-picked)", "url": "https://www.reddit.com/r/recomps/"},
  {"name": "BlueInterlude/awesome-recompilations", "url": "https://github.com/BlueInterlude/awesome-recompilations"},
 ]
 if __name__ == "__main__": main()

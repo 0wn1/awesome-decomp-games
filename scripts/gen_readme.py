@@ -17,6 +17,7 @@ def links(e):
     if e.get("release_url"): l.append(f"[release]({e['release_url']})")
     if e.get("decompdev_url"): l.append(f"[progress]({e['decompdev_url']})")
     if e.get("video"): l.append(f"[video]({e['video']})")
+    if e.get("reddit_post"): l.append(f"[reddit]({e['reddit_post']} \"{e.get('reddit_user','')} · {e.get('reddit_upvotes',0)} upvotes · {e.get('reddit_comments',0)} comments\")")
     return " · ".join(l)
 def title(e):
     t = f"[{esc(e['title'])}]({e['url']})"
