@@ -74,5 +74,213 @@
   "type": "tool",
   "source": "quiver",
   "description": "MIT-licensed launcher (Windows/macOS/Linux/Android) that installs and updates upstream releases of decomp, recomp and source-port projects. Needs your own game files."
+ },
+ {
+  "title": "Call of Duty: Modern Warfare 2 (IW4L)",
+  "url": "https://github.com/vladtrc/iw4L",
+  "platform": "PC",
+  "type": "remake",
+  "source": "game-mashups",
+  "description": "Standalone experimental MW2 runtime written from scratch in Rust (bevy + wgpu). Needs your own copy of MW2."
+ },
+ {
+  "title": "Skate 3 (Skate 3 Rust Engine)",
+  "url": "https://github.com/SK8-ENGINE/skate-3-rust-engine",
+  "platform": "Xbox 360",
+  "type": "remake",
+  "source": "game-mashups",
+  "description": "Rust + Bevy skating engine based on Skate 3 reverse-engineering research. Needs your own Xbox 360 copy; no assets included."
+ },
+ {
+  "title": "World of Warcraft 1.12 (benilla)",
+  "url": "https://github.com/samwhosung/benilla",
+  "platform": "PC",
+  "type": "remake",
+  "source": "game-mashups",
+  "description": "A World of Warcraft 1.12.1 client written from scratch in Rust and Bevy. Needs your own game data."
+ },
+ {
+  "title": "libsm64",
+  "url": "https://github.com/libsm64/libsm64",
+  "platform": "N64",
+  "type": "tool",
+  "source": "game-mashups",
+  "description": "Super Mario 64 as a library for external game engines, built from the SM64 decompilation. Extracts assets from your own ROM. Powers most Mario-in-X mods."
+ },
+ {
+  "title": "ER Mario",
+  "url": "https://github.com/deltarooo/er-mario",
+  "platform": "PC",
+  "type": "mod",
+  "source": "game-mashups",
+  "mod_group": "libsm64 / SM64 decomp",
+  "description": "Mario's triple jumps, wall kicks, long jumps, ground pounds, attacks, health wedges, coins and Lakitu-style camera run through libsm64 while Elden Ring supplies the world, enemies, encounters and live Havok collision.",
+  "host": "Elden Ring",
+  "guest": "Super Mario 64"
+ },
+ {
+  "title": "Retro64",
+  "url": "https://github.com/Retro64Mod/Retro64Mod",
+  "platform": "PC",
+  "type": "mod",
+  "source": "game-mashups",
+  "mod_group": "libsm64 / SM64 decomp",
+  "description": "Retro64 uses a libsm64 fork to simulate Super Mario 64's movement code in Minecraft, toggled with the M key. Mario can attack mobs, swim, take damage, travel between dimensions and use the wing cap via elytra. Still actively released in 2026 (1.2.5, 27 Sep 2026).",
+  "host": "Minecraft: Java Edition (Forge 1.20.1 and below; NeoForge 1.21.1+)",
+  "guest": "Super Mario 64"
+ },
+ {
+  "title": "G64",
+  "url": "https://github.com/ckosmic/g64",
+  "platform": "PC",
+  "type": "mod",
+  "source": "game-mashups",
+  "mod_group": "libsm64 / SM64 decomp",
+  "description": "G64 is a Garry's Mod addon that uses ckosmic's fork of libsm64 to run Super Mario 64's decompiled movement code inside Source maps. It includes the full moveset, wing/metal/vanish caps, coins, multiplayer, gamepad and vehicle support. Assets are extracted at runtime from a user-s",
+  "host": "Garry's Mod",
+  "guest": "Super Mario 64"
+ },
+ {
+  "title": "sm64-san-andreas (Super Mario 64 in GTA San Andreas)",
+  "url": "https://github.com/headshot2017/sm64-san-andreas",
+  "platform": "PC",
+  "type": "mod",
+  "source": "game-mashups",
+  "mod_group": "libsm64 / SM64 decomp",
+  "description": "Headshotnoby's plugin embeds libsm64 into GTA San Andreas so Mario moves with SM64's physics through Los Santos. It is one of a family of libsm64 ports by the same author (ClassiCube, OpenLara/Tomb Raider, GZDoom, DDNet). Latest release is v20250505.",
+  "host": "Grand Theft Auto: San Andreas (PC v1.0)",
+  "guest": "Super Mario 64"
+ },
+ {
+  "title": "SMC64 — Mario in Halo: CE",
+  "url": "https://github.com/KodyJKing/smc64",
+  "platform": "PC",
+  "type": "mod",
+  "source": "game-mashups",
+  "mod_group": "libsm64 / SM64 decomp",
+  "description": "A libsm64-based mod that runs SM64's Mario movement inside Halo CE in the Master Chief Collection. The latest alpha came out on 1 Oct 2026.",
+  "host": "Halo: Combat Evolved (Steam MCC)",
+  "guest": "Super Mario 64 (Mario via libsm64)"
+ },
+ {
+  "title": "gzdoom-sm64 — Mario in Doom",
+  "url": "https://github.com/headshot2017/gzdoom-sm64",
+  "platform": "PC",
+  "type": "mod",
+  "source": "game-mashups",
+  "mod_group": "libsm64 / SM64 decomp",
+  "description": "A fork of GZDoom 3.2.0 that swaps the Doom player for a playable Super Mario 64 Mario driven by libsm64, moving with SM64's physics through Doom maps. The creator describes it as a work in progress and publishes a development build.",
+  "host": "DOOM (GZDoom 3.2.0)",
+  "guest": "Super Mario 64"
+ },
+ {
+  "title": "Doom-in-Doom",
+  "url": "https://github.com/kgsws/doom-in-doom",
+  "platform": "PC",
+  "type": "mod",
+  "source": "game-mashups",
+  "mod_group": "Doom ports",
+  "description": "kgsws found a code-execution vulnerability in DOS DOOM2.EXE and used it to load a Chocolate Doom port that renders to a texture inside the host game, effectively a cinema room showing a playable Doom. The same technique was shown running Heretic. The exploit work became the ACE E",
+  "host": "DOOM II (DOS DOOM2.EXE v1.9)",
+  "guest": "DOOM (Chocolate Doom port), Heretic (also demonstrated)"
+ },
+ {
+  "title": "UltraDoom / UltrakillDoom",
+  "url": "https://github.com/Squaresweets/UltrakillDoom",
+  "platform": "PC",
+  "type": "mod",
+  "source": "game-mashups",
+  "mod_group": "Doom ports",
+  "description": "Turns ULTRAKILL's diegetic shop terminals into playable DOOM instances. A legitimate or shareware DOOM WAD is supplied by the user.",
+  "host": "ULTRAKILL",
+  "guest": "DOOM (1993)"
+ },
+ {
+  "title": "2010 Rust Rewrite Mashup",
+  "url": "https://github.com/chasmlol/2010-rust-rewrite-mashup",
+  "platform": "PC",
+  "type": "mod",
+  "source": "game-mashups",
+  "mod_group": "Rust rewrites",
+  "description": "A from-scratch Rust rewrite of MW2 that combines MW2 multiplayer, Skate 3-style skating and a real generated Minecraft world. The Minecraft mode includes blocks, mobs, inventory, mining/placing and world generation; Skate mode uses data from a user-owned Xbox 360 copy. v0.4.0 (2 ",
+  "host": "Call of Duty: Modern Warfare 2 via IW4L",
+  "guest": "Skate 3, Minecraft"
+ },
+ {
+  "title": "SkateGM",
+  "url": "https://github.com/the-schwilliam/SkateGM",
+  "platform": "PC",
+  "type": "mod",
+  "source": "game-mashups",
+  "mod_group": "Rust rewrites",
+  "description": "Runs Skate 3's board physics, tricks and scoring on Garry's Mod maps, with multiplayer, minigames, a park editor and a dedicated skating gamemode. Users supply their own Skate 3 files.",
+  "host": "Garry's Mod",
+  "guest": "Skate 3"
+ },
+ {
+  "title": "SkyCraft",
+  "url": "https://github.com/chasmlol/SkyCraft",
+  "platform": "PC",
+  "type": "mod",
+  "source": "game-mashups",
+  "mod_group": "Other mods & mashups",
+  "description": "Minecraft remains running as the game-logic side while Skyrim renders the world. Movement, inventory, HUD, blocks, digging, fluids, lighting, combat and parts of Minecraft progression are integrated into Skyrim's world.",
+  "host": "The Elder Scrolls V: Skyrim Special Edition",
+  "guest": "Minecraft: Java Edition"
+ },
+ {
+  "title": "VM Computers",
+  "url": "https://github.com/Delta2Force/MCVmComputers",
+  "platform": "PC",
+  "type": "mod",
+  "source": "game-mashups",
+  "mod_group": "Other mods & mashups",
+  "description": "A Fabric mod in which players order computer parts from an in-game satellite and assemble a computer that runs a real VirtualBox virtual machine, displayed and controlled in the Minecraft world. Coverage and creator footage show DOS Doom being played on these in-game PCs.",
+  "host": "Minecraft: Java Edition (Fabric 1.15–1.16)",
+  "guest": "x86 operating systems and their games (e.g. DOS Doom) via VirtualBox"
+ },
+ {
+  "title": "Ultracraft",
+  "url": "https://github.com/alfr0762/ultracraft",
+  "platform": "PC",
+  "type": "mod",
+  "source": "game-mashups",
+  "mod_group": "Other mods & mashups",
+  "description": "A Fabric mod plus a BepInEx plugin (UltraBridge) that runs ULTRAKILL alongside Minecraft 1.21.11 and draws it into Minecraft's window. Minecraft's blocks and mobs become ULTRAKILL's world and enemies; the README documents bosses, layer-themed arenas, the shop and upgrades, Cyber ",
+  "host": "Minecraft: Java Edition",
+  "guest": "ULTRAKILL"
+ },
+ {
+  "title": "hytale2mc",
+  "url": "https://github.com/alskea/hytale2mc",
+  "platform": "PC",
+  "type": "mod",
+  "source": "game-mashups",
+  "mod_group": "Other mods & mashups",
+  "description": "A framework for writing one minigame that runs across Minecraft and Hytale with synchronized game state. The project site currently advertises a live public server at `play.hytale2mc.com`.",
+  "host": "Synchronized Minecraft (Minestom) and Hytale servers",
+  "guest": "Minecraft: Java Edition 1.21.11, Hytale"
+ },
+ {
+  "title": "CrossplayProject — Minecraft ↔ Roblox",
+  "url": "https://github.com/Atmerek/CrossplayProject",
+  "platform": "PC",
+  "type": "mod",
+  "source": "game-mashups",
+  "mod_group": "Other mods & mashups",
+  "description": "Synchronizes blocks, players, mobs, time/weather, chat, skins and build/break interactions between Minecraft and Roblox. The source repository is archived, but the v1.3 release remains available.",
+  "host": "Linked Minecraft server and Roblox experience",
+  "guest": "Minecraft, Roblox"
+ },
+ {
+  "title": "HyCraft",
+  "url": "https://github.com/EdwardBelt/HyCraft",
+  "platform": "PC",
+  "type": "mod",
+  "source": "game-mashups",
+  "mod_group": "Other mods & mashups",
+  "description": "Minecraft clients can connect to a Hytale server without a client mod. HyCraft converts chunks and biomes, synchronises entities and inventory, and translates block interaction and combat.",
+  "host": "Hytale server",
+  "guest": "Minecraft: Java Edition 1.21.11"
  }
 ]

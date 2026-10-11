@@ -169,7 +169,7 @@ ap = os.path.join(ROOT, "data", "additions.json")
 if os.path.exists(ap):
     for a in json.load(open(ap)):
         r = add(a.get("source", "manual"), a["title"], a["url"], a.get("platform", ""), a.get("type", ""), a.get("description", ""),
-                {"play_url": a.get("play_url"), "info_url": a.get("info_url")})
+                {"play_url": a.get("play_url"), "info_url": a.get("info_url"), "mod_group": a.get("mod_group"), "host": a.get("host"), "guest": a.get("guest")})
         if r and a.get("ai_flag"): r["ai_flag"] = True
 
 # 9. source tags (data/source_tags.json): {"source-id": [urls]} -> tag records whose url/play_url matches

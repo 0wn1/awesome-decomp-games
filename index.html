@@ -62,6 +62,9 @@ footer{color:var(--mut);font-size:13px;max-width:1300px;margin:auto;padding:20px
 </div>
 <table><thead><tr><th>Game</th><th>Type</th><th>Platform</th><th class="n">Score</th><th class="n hide-m">⭐</th><th class="hide-m">Last commit</th><th class="hide-m">Progress</th><th>Links</th></tr></thead><tbody id="rows"></tbody></table>
 <button id="more" hidden>Show more</button>
+<h2 id="mods">🧩 Mods &amp; mashups <span class="meta" id="mcount"></span></h2>
+<p class="meta">Released mods and crossovers built on decomps, libsm64 and reverse-engineered rewrites (25+ stars). Separate from the lists above. Curated from <a href="https://github.com/bailo167/awesome-game-mashups">awesome-game-mashups</a> (CC0). Bring your own game copies.</p>
+<div id="modlist"></div>
 <details id="oldsec"><summary><h2 style="display:inline">🕰️ Inactive / unmaintained <span class="meta" id="ocount"></span></h2></summary>
 <p class="meta" id="onote"></p>
 <table><thead><tr><th>Game</th><th>Type</th><th>Platform</th><th class="n">Score</th><th class="n hide-m">⭐</th><th class="hide-m">Last commit</th><th class="hide-m">Progress</th><th>Links</th></tr></thead><tbody id="orows"></tbody></table>
@@ -93,6 +96,8 @@ fetch("data/games.json").then(r=>r.json()).then(d=>{D=d;
  const br=d.games.filter(e=>e.browser_playable).sort((a,b)=>(!!b.screenshot-!!a.screenshot)||b.score-a.score);
  $("#bcount").textContent="("+br.length+")";
  $("#browser").innerHTML=br.map(e=>`<div class="card">${e.screenshot?`<a href="${esc(safe(e.play_url))}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(e.screenshot)}" alt="${esc(e.title)} screenshot"></a>`:`<div class="ph">${esc(e.platform)}</div>`}<div class="b"><h3>${esc(e.title)}</h3><div class="meta">${esc(e.platform)}${A[e.needs_assets]?" · "+A[e.needs_assets]:""}${e.multiplayer?" · multiplayer":""}</div><div class="desc">${esc(e.description||"")}</div><a class="playbtn" href="${esc(safe(e.play_url))}" target="_blank" rel="noopener">▶ Play in browser</a></div></div>`).join("");
+ const MD=d.mods||[];$("#mcount").textContent="("+MD.length+")";
+ $("#modlist").innerHTML=[...new Set(MD.map(e=>e.mod_group||"Other mods & mashups"))].map(g=>`<h3>${esc(g)}</h3><table><thead><tr><th>Mod</th><th>Runs in</th><th class="hide-m">Brings in</th><th class="n">⭐</th><th class="hide-m">Last commit</th></tr></thead><tbody>`+MD.filter(e=>(e.mod_group||"Other mods & mashups")===g).map(e=>`<tr><td><a href="${esc(safe(e.url))}" target="_blank" rel="noopener">${esc(e.title)}</a>${e.archived?" 🗄️":""}<small>${esc(e.description||"").slice(0,160)}</small></td><td>${esc(e.host||"")}</td><td class="hide-m">${esc(e.guest||"")}</td><td class="n">${fmt(e.stars)}</td><td class="hide-m">${(e.last_commit||"").slice(0,10)}</td></tr>`).join("")+`</tbody></table>`).join("");
  const O=d.games.filter(e=>e.inactive).sort((a,b)=>(a.type<b.type?-1:a.type>b.type?1:0)||b.score-a.score);
  $("#ocount").textContent="("+O.length+")";$("#onote").textContent=`Archived, or no commits since ${d.inactive_cutoff} (2 years). Browser-playable games and hand-picked top picks stay above, marked 🕰️.`;
  $("#orows").innerHTML=O.map(row).join("");

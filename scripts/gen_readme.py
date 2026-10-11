@@ -35,6 +35,7 @@ f"**{doc['total']} projects** covering **{doc['unique_games']} games** · update
 "## Contents", "", f"- [Play in your browser](#play-in-your-browser) ({sum(1 for e in G if e.get('browser_playable'))})", "- [Top playable picks](#top-playable-picks)"]
 for k in T:
     if doc["counts"].get(k): L.append(f"- [{T[k]['name']}](#{anchor(T[k]['name'])}) ({doc['counts'][k]})")
+if doc.get("mods"): L.append(f"- [Mods & mashups](#mods--mashups) ({len(doc['mods'])})")
 if doc.get("inactive"): L.append(f"- [Inactive / unmaintained](#inactive--unmaintained) ({doc['inactive']})")
 L += ["- [How entries are rated](#how-entries-are-rated)", "- [Sources](#sources)", "- [Contributing](#contributing)", "- [Disclaimer](#disclaimer)", "- [License](#license)", ""]
 
@@ -74,6 +75,15 @@ for k in T:
         prog = f"{e['progress']:.1f}%" if e.get("progress") is not None else ""
         L.append(f"| {title(e)} | {esc(e['platform'])} | {e['score']:.1f} | {stars(e['stars'])} | {date(e['last_commit'])} | {prog} | {links(e)} |")
     L.append("")
+
+MODS = doc.get("mods", [])
+if MODS:
+    L += ["## Mods & mashups", "", f"{len(MODS)} released mods and crossovers built on decomps, libsm64 and reverse-engineered rewrites (25+ stars, playable now). They're separate from the topic lists above and from Top picks. Curated from [awesome-game-mashups](https://github.com/bailo167/awesome-game-mashups) (CC0). All need your own copies of the games involved.", ""]
+    for grp in dict.fromkeys(e.get("mod_group") or "Other mods & mashups" for e in MODS):
+        L += [f"### {grp}", "", "| Mod | Runs in | Brings in | ⭐ | Last commit | Links |", "|---|---|---|---|---|---|"]
+        for e in [e for e in MODS if (e.get("mod_group") or "Other mods & mashups") == grp]:
+            L.append(f"| {title(e)}<br><sub>{esc(e['description'])[:160]}</sub> | {esc(e.get('host'))[:60]} | {esc(e.get('guest'))[:60]} | {stars(e['stars'])} | {date(e['last_commit'])} | {links(e)} |")
+        L.append("")
 
 OLD = [e for e in G if e.get("inactive")]
 if OLD:

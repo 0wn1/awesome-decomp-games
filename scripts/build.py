@@ -18,6 +18,7 @@ TOPICS = {
  "tool":           ("Tools & launchers", "Recompilers, launchers and helpers around these projects."),
 }
 ORDER = list(TOPICS)
+MOD_GROUPS = ["libsm64 / SM64 decomp", "Doom ports", "Rust rewrites", "Other mods & mashups"]
 
 PLAT_GUESS = [(r"\bn64\b|nintendo ?64|majora|ocarina", "N64"), (r"gamecube|\bgcn?\b|dolphin", "GameCube"),
  (r"\bwii ?u\b", "Wii U"), (r"\bwii\b", "Wii"), (r"\b3ds\b", "3DS"), (r"\bnds\b|nintendo ds", "DS"), (r"\bgba\b", "GBA"),
@@ -28,6 +29,7 @@ PLAT_GUESS = [(r"\bn64\b|nintendo ?64|majora|ocarina", "N64"), (r"gamecube|\bgcn
 
 def classify(r, text, tu):
     h = set(r.get("hints", []))
+    if "mod" in h: return "mod"
     if "tool" in h: return "tool"
     if "browser" in h: return "browser-port"
     if re.search(r"recomp|recompil|xenonrecomp|n64recomp|rexglue", tu): return "static-recomp"
@@ -136,7 +138,7 @@ def main():
          "homepage": g.get("homepage") or None, "og_image": g.get("og_image"), "thumb_src": r.get("thumb_src"),
          "progress": r.get("progress"), "progress_functions": r.get("progress_functions"), "decompdev_url": r.get("decompdev_url"),
          "play_url": r.get("play_url"), "info_url": r.get("info_url"), "needs_assets": r.get("assets"),
-         "multiplayer": r.get("multiplayer"), "ai_flag": r.get("ai_flag", False),
+         "multiplayer": r.get("multiplayer"), "mod_group": r.get("mod_group"), "host": r.get("host"), "guest": r.get("guest"), "ai_flag": r.get("ai_flag", False),
          "sources": sorted(srcs), "link_status": r.get("link_status"), "link_ok": ok, "checked_at": r.get("checked_at"),
         }
         e["type"] = classify(r, text, tu)
@@ -159,6 +161,10 @@ def main():
         pst = r.get("links_checked", {}).get("play_url", r.get("link_status") or 0)
         e["browser_playable"] = bool(e.get("play_url")) and (bool(bver) or 200 <= pst < 400 or pst in (401, 403, 429)) and bst.get("ok", True)
         seen[key] = e; out.append(e)
+    # mods & mashups built on decomps: own section, kept out of topics, counts, picks, browser and inactive lists
+    mods = sorted([e for e in out if e["type"] == "mod"], key=lambda e: (MOD_GROUPS.index(e.get("mod_group")) if e.get("mod_group") in MOD_GROUPS else 99, -(e["stars"] or 0)))
+    for e in mods: e["browser_playable"] = False
+    out = [e for e in out if e["type"] != "mod"]
     # inactive: archived or last commit older than 2 years. Browser-playable (passing play check) and
     # hand-pinned top picks stay in place but get "old": true.
     cutoff = time.strftime("%Y-%m-%d", time.gmtime(time.time() - 2 * 365.25 * 86400))
@@ -185,7 +191,7 @@ def main():
            "total": len(out), "browser_playable": doc_browser, "unique_games": len({e["game_key"] for e in out}), "counts": counts, "inactive_counts": inactive_counts, "inactive_cutoff": cutoff,
            "active": sum(counts.values()), "inactive": sum(inactive_counts.values()),
            "topics": {k: {"name": v[0], "description": v[1]} for k, v in TOPICS.items()},
-           "sources": SOURCES, "games": out}
+           "sources": SOURCES, "games": out, "mods": mods}
     json.dump(doc, open(D("data/games.json"), "w"), indent=1, ensure_ascii=False)
     json.dump(dropped, open(D("data/dropped.json"), "w"), indent=1, ensure_ascii=False)
     print(f"games: {len(out)} (unique titles {doc['unique_games']}), dropped {len(dropped)}; counts {counts}")
@@ -199,6 +205,7 @@ SOURCES = [
  {"name": "Quiver Launcher catalog (entries with >=100 stars)", "url": "https://quiverlauncher.com/"},
  {"name": "radek-sprta/awesome-game-remakes", "url": "https://github.com/radek-sprta/awesome-game-remakes"},
  {"name": "X post by @RadiantOpti (browser games list)", "url": "https://x.com/RadiantOpti/status/2108068632991256995"},
+ {"name": "bailo167/awesome-game-mashups (CC0; mods & mashups with 25+ stars)", "url": "https://github.com/bailo167/awesome-game-mashups"},
  {"name": "BlueInterlude/awesome-recompilations", "url": "https://github.com/BlueInterlude/awesome-recompilations"},
 ]
 if __name__ == "__main__": main()
