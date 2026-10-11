@@ -1422,12 +1422,6 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
-  "title": "Dragon Ball Z: The Legacy of Goku II",
-  "url": "https://github.com/mstan/DragonBallZLegacyofGokuIIRecomp",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
   "title": "Dragon Ball Z: Ultimate Battle 22",
   "url": "https://github.com/alexbeavs-ps1-ports/dragon-ball-z-ultimate-battle-22-recomp",
   "status": 200,
@@ -2262,6 +2256,12 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
+  "title": "Gran Turismo 2",
+  "url": "https://github.com/GTTeancum/OpenGTPS1",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
   "title": "Gran Turismo 2 Simulation and Arcade discs",
   "url": "https://github.com/SubhanHabib/OpenGTPS1",
   "status": 200,
@@ -2270,8 +2270,8 @@
  {
   "title": "Gran Turismo 4",
   "url": "https://github.com/LabronFox/vulcan4",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
+  "status": 404,
+  "reason": "dead link"
  },
  {
   "title": "Gran Turismo 4",
@@ -4206,6 +4206,12 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
+  "title": "Perfect Dark (Perfect Dark Port [Android])",
+  "url": "https://github.com/izzy2lost/perfect_dark",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
+ },
+ {
   "title": "Phantasy Star Portable 2: Infinity",
   "url": "https://github.com/zmbkilla/PSP2I_Recomp",
   "status": 200,
@@ -5464,6 +5470,12 @@
   "url": "https://github.com/ssxdecomp/ssxtricky",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "SSX Tricky (OpenTricky)",
+  "url": "https://github.com/GiZcesi/OpenTricky",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
  },
  {
   "title": "Star Fox 64",
