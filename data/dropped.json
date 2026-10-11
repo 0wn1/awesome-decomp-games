@@ -434,8 +434,8 @@
  {
   "title": "Barbarian",
   "url": "http://barbarian.1987.free.fr/indexEN.htm",
-  "status": 0,
-  "reason": "dead link"
+  "status": 200,
+  "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
   "title": "Battle Arena Toshinden (Battle Arena Toshinden Recompiled)",
@@ -918,12 +918,6 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
-  "title": "Claude of Duty: Vibe Slops II",
-  "url": "http://vibeslops.luckeysystems.com",
-  "status": 0,
-  "reason": "dead link"
- },
- {
   "title": "Coaster",
   "url": "https://github.com/sp00nznet/coaster",
   "status": 200,
@@ -1282,6 +1276,12 @@
   "url": "https://github.com/juandav/dcb_decomp",
   "status": 404,
   "reason": "dead link"
+ },
+ {
+  "title": "Digimon World 2",
+  "url": "https://github.com/Wyrelade/DW2-PC",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
   "title": "Digimon World 2",
@@ -2510,7 +2510,7 @@
  {
   "title": "Hedgewars",
   "url": "http://webwars.link",
-  "status": 0,
+  "status": 400,
   "reason": "dead link"
  },
  {
@@ -3169,13 +3169,13 @@
  },
  {
   "title": "Lufia II: Rise of the Sinistrals",
-  "url": "https://github.com/Cellenseres/Lufia2SNESRecomp",
+  "url": "https://github.com/Cellenseres/Lufia2Decomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
   "title": "Lufia II: Rise of the Sinistrals",
-  "url": "https://github.com/Cellenseres/Lufia2Decomp",
+  "url": "https://github.com/Cellenseres/Lufia2SNESRecomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
@@ -3570,12 +3570,6 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
-  "title": "Mega Man X6",
-  "url": "https://github.com/anzaldoivan/mmx6",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
   "title": "Mega Man X: Command Mission",
   "url": "https://github.com/vs-sr-dev/pc-megamanxcm",
   "status": 200,
@@ -3692,6 +3686,12 @@
  {
   "title": "Midway Arcade Origins",
   "url": "https://github.com/sp00nznet/midway-ps3",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "Miki's World + Miki's World 2",
+  "url": "https://github.com/yanm1103/mikisworld",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
@@ -4296,12 +4296,6 @@
   "reason": "dead link"
  },
  {
-  "title": "Pokémon Black 2 and White 2",
-  "url": "https://github.com/fuddlesworth/pokebw2",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
   "title": "Pokémon Blue",
   "url": "https://github.com/GB-Recomp/pokeblue",
   "status": 200,
@@ -4478,7 +4472,7 @@
  {
   "title": "PopRE Bug Tracker",
   "url": "https://www.populous3.info/bugs/my_view_page.php",
-  "status": 200,
+  "status": 403,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
@@ -5874,6 +5868,12 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
+  "title": "Super Robot Wars 64",
+  "url": "https://github.com/o0WhiteFox0o/SuperRobot-Vietnamese",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
   "title": "Super Smash Bros. Brawl",
   "url": "https://github.com/M2AF/Brawl-Decompile",
   "status": 200,
@@ -6384,12 +6384,6 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
-  "title": "The Simpsons Arcade Game (PS3)",
-  "url": "https://recompiledgames.com/the-simpsons-arcade-game-ps3-recompiled",
-  "status": 404,
-  "reason": "dead link"
- },
- {
   "title": "The Sims 2 PSP",
   "url": "https://github.com/DaniKH1/ts2psp-decomp",
   "status": 200,
@@ -6484,12 +6478,6 @@
   "url": "https://github.com/sp00nznet/tokyojungle",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Tomb Raider (OpenLara)",
-  "url": "http://xproger.info/projects/OpenLara",
-  "status": 0,
-  "reason": "dead link"
  },
  {
   "title": "Tomba! 2: The Evil Swine Return",
@@ -6668,6 +6656,12 @@
  {
   "title": "Turok 2: Seeds of Evil",
   "url": "https://github.com/SirBraga/turok2-recomp",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "Turok: Rage Wars",
+  "url": "https://github.com/melalawi/ragewars-decomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
@@ -6914,6 +6908,12 @@
  {
   "title": "War in Middle Earth",
   "url": "https://github.com/antxiko/WarinMiddleEarth-MSX-disassembly",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "War of the Monsters",
+  "url": "https://github.com/yanm1103/War_of_the_Monsters_recomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
