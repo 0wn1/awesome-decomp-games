@@ -22,6 +22,7 @@ def title(e):
     t = f"[{esc(e['title'])}]({e['url']})"
     if e.get("ai_flag"): t += " ⚠️"
     if e.get("archived"): t += " 🗄️"
+    if e.get("old") and not e.get("inactive"): t += " 🕰️"
     return t
 
 L = []
@@ -34,6 +35,7 @@ f"**{doc['total']} projects** covering **{doc['unique_games']} games** · update
 "## Contents", "", f"- [Play in your browser](#play-in-your-browser) ({sum(1 for e in G if e.get('browser_playable'))})", "- [Top playable picks](#top-playable-picks)"]
 for k in T:
     if doc["counts"].get(k): L.append(f"- [{T[k]['name']}](#{anchor(T[k]['name'])}) ({doc['counts'][k]})")
+if doc.get("inactive"): L.append(f"- [Inactive / unmaintained](#inactive--unmaintained) ({doc['inactive']})")
 L += ["- [How entries are rated](#how-entries-are-rated)", "- [Sources](#sources)", "- [Contributing](#contributing)", "- [Disclaimer](#disclaimer)", "- [License](#license)", ""]
 
 browser = sorted([e for e in G if e.get("browser_playable")], key=lambda e: (-(e.get("screenshot") is not None), -e["score"], e["title"].lower()))
@@ -64,7 +66,7 @@ for i, e in enumerate(picks, 1):
 
 
 for k in T:
-    rows = sorted([e for e in G if e["type"] == k], key=lambda e: (-e["score"], e["title"].lower()))
+    rows = sorted([e for e in G if e["type"] == k and not e.get("inactive")], key=lambda e: (-e["score"], e["title"].lower()))
     if not rows: continue
     L += [f"## {T[k]['name']}", "", T[k]["description"], "",
           "| Game | Platform | Score | ⭐ | Last commit | Progress | Links |", "|---|---|---|---|---|---|---|"]
@@ -72,6 +74,18 @@ for k in T:
         prog = f"{e['progress']:.1f}%" if e.get("progress") is not None else ""
         L.append(f"| {title(e)} | {esc(e['platform'])} | {e['score']:.1f} | {stars(e['stars'])} | {date(e['last_commit'])} | {prog} | {links(e)} |")
     L.append("")
+
+OLD = [e for e in G if e.get("inactive")]
+if OLD:
+    L += ["## Inactive / unmaintained", "", f"{len(OLD)} projects that are archived or have had no commits since {doc['inactive_cutoff']} (2 years). They may still work, but don't expect fixes. Browser-playable games and hand-picked top picks stay in the main lists, marked 🕰️.", ""]
+    for k in T:
+        rows = sorted([e for e in OLD if e["type"] == k], key=lambda e: (-e["score"], e["title"].lower()))
+        if not rows: continue
+        L += [f"<details><summary><b>{T[k]['name']}</b> ({len(rows)})</summary>", "", "| Game | Platform | Score | ⭐ | Last commit | Progress | Links |", "|---|---|---|---|---|---|---|"]
+        for e in rows:
+            prog = f"{e['progress']:.1f}%" if e.get("progress") is not None else ""
+            L.append(f"| {title(e)} | {esc(e['platform'])} | {e['score']:.1f} | {stars(e['stars'])} | {date(e['last_commit'])} | {prog} | {links(e)} |")
+        L += ["", "</details>", ""]
 
 L += ["## How entries are rated", "",
 "Every entry gets four 1-5 sub-scores, computed by [`scripts/build.py`](scripts/build.py) from GitHub metadata and decomp.dev:", "",

@@ -157,21 +157,31 @@ def main():
         pst = r.get("links_checked", {}).get("play_url", r.get("link_status") or 0)
         e["browser_playable"] = bool(e.get("play_url")) and (bool(bver) or 200 <= pst < 400 or pst in (401, 403, 429)) and bst.get("ok", True)
         seen[key] = e; out.append(e)
+    # inactive: archived or last commit older than 2 years. Browser-playable (passing play check) and
+    # hand-pinned top picks stay in place but get "old": true.
+    cutoff = time.strftime("%Y-%m-%d", time.gmtime(time.time() - 2 * 365.25 * 86400))
+    for e in out:
+        stale = bool(e.get("archived")) or bool(e.get("last_commit") and e["last_commit"][:10] < cutoff)
+        keep = e["browser_playable"] or isinstance(media.get(e["url"], {}).get("top_pick"), int)
+        e["old"] = stale
+        e["inactive"] = stale and not keep
     # top playable picks: pinned ranks from data/media.json first, then fill by score (one per game)
     picks, games = [], set()
     pinned = sorted([e for e in out if isinstance(media.get(e["url"], {}).get("top_pick"), int)], key=lambda e: media[e["url"]]["top_pick"])
     for e in pinned:
         if e["game_key"] not in games: picks.append(e); games.add(e["game_key"])
-    for e in sorted([e for e in out if e["ratings"]["playability"] >= 4 and e["link_ok"]], key=lambda e: -e["score"]):
+    for e in sorted([e for e in out if e["ratings"]["playability"] >= 4 and e["link_ok"] and not e["inactive"]], key=lambda e: -e["score"]):
         if len(picks) >= max(12, len(pinned)): break
         if e["game_key"] not in games: picks.append(e); games.add(e["game_key"])
     for i, e in enumerate(picks): e["top_pick"] = i + 1
     for e in out: e.setdefault("top_pick", None)
     out.sort(key=lambda e: (e["top_pick"] is None, e["top_pick"] or 0, ORDER.index(e["type"]), -e["score"], e["title"].lower()))
     doc_browser = sum(1 for e in out if e["browser_playable"])
-    counts = {t: sum(1 for e in out if e["type"] == t) for t in ORDER}
+    counts = {t: sum(1 for e in out if e["type"] == t and not e["inactive"]) for t in ORDER}
+    inactive_counts = {t: sum(1 for e in out if e["type"] == t and e["inactive"]) for t in ORDER}
     doc = {"generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-           "total": len(out), "browser_playable": doc_browser, "unique_games": len({e["game_key"] for e in out}), "counts": counts,
+           "total": len(out), "browser_playable": doc_browser, "unique_games": len({e["game_key"] for e in out}), "counts": counts, "inactive_counts": inactive_counts, "inactive_cutoff": cutoff,
+           "active": sum(counts.values()), "inactive": sum(inactive_counts.values()),
            "topics": {k: {"name": v[0], "description": v[1]} for k, v in TOPICS.items()},
            "sources": SOURCES, "games": out}
     json.dump(doc, open(D("data/games.json"), "w"), indent=1, ensure_ascii=False)
