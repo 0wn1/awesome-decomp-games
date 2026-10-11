@@ -108,6 +108,8 @@ def main():
         if not ok and any(nk(r.get(k)) in {nk(x) for x in over.get("browser_verified", {})} for k in ("url", "play_url")): ok = True
         if not ok: dropped.append({"title": r["title"], "url": r["url"], "status": r.get("link_status"), "reason": "dead link"}); continue
         if nk(key) in excl or nk(r["url"]) in excl: continue
+        hay = " ".join(str(x) for x in (r["title"], r["url"], key, r.get("play_url"), r.get("info_url"))).lower()
+        if any(pat.lower() in hay for pat in over.get("exclude_patterns", [])): continue
         srcs = r["sources"]
         stars = g.get("stars", 0) if g else 0
         only_fyi = srcs == ["recomp.fyi"]

@@ -48,7 +48,10 @@
   "https://github.com/yairm210/Unciv",
   "https://tweetcraft.jai.vin/r/ti9bwes4ryguhkra",
   "https://global-terror.net",
-  "https://vibeslops.luckeysystems.com"
+  "https://vibeslops.luckeysystems.com",
+  "https://github.com/XProger/OpenLara",
+  "http://xproger.info/projects/OpenLara",
+  "https://xproger.info/projects/OpenLara"
  ],
  "set": {
   "https://github.com/Warzone2100/warzone2100": {
@@ -165,9 +168,6 @@
    "title": "The Legend of Zelda: A Link to the Past (zelda3)",
    "platform": "SNES"
   },
-  "https://github.com/XProger/OpenLara": {
-   "title": "Tomb Raider 1-5 (OpenLara)"
-  },
   "https://github.com/OpenMW/openmw": {
    "title": "The Elder Scrolls III: Morrowind (OpenMW)",
    "platform": "PC"
@@ -234,5 +234,8 @@
  },
  "browser_verified": {
   "https://ovz-game-production.up.railway.app": "Verified working by Igor on 2026-10-11 (Cloudflare traffic check precedes the game)."
- }
+ },
+ "exclude_patterns": [
+  "openlara"
+ ]
 }

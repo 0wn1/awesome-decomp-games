@@ -254,21 +254,6 @@
   "locked": true,
   "screenshot_reviewed": true
  },
- "https://github.com/XProger/OpenLara": {
-  "top_pick": 18,
-  "note": "Classic Tomb Raider engine that runs on PC, phones, browsers and retro consoles.",
-  "checked": true,
-  "video": "https://www.youtube.com/watch?v=RRhyua_l5U8",
-  "screenshot": "screenshots/xproger-openlara.jpg",
-  "screenshot_source": "https://i.ytimg.com/vi/RRhyua_l5U8/maxresdefault.jpg",
-  "screenshot_size": [
-   1280,
-   720
-  ],
-  "screenshot_score": 3,
-  "locked": true,
-  "screenshot_reviewed": true
- },
  "https://github.com/dethrace-labs/dethrace": {
   "top_pick": 19,
   "note": "Reverse-engineered Carmageddon that runs natively on modern Windows, Linux and macOS.",
@@ -886,15 +871,6 @@
   "screenshot_size": [
    594,
    425
-  ],
-  "screenshot_score": 3
- },
- "http://xproger.info/projects/OpenLara": {
-  "screenshot": "screenshots/browser-tomb-raider-openlara.jpg",
-  "screenshot_source": "live capture of http://xproger.info/projects/OpenLara/",
-  "screenshot_size": [
-   1280,
-   720
   ],
   "screenshot_score": 3
  },
