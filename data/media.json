@@ -1040,5 +1040,68 @@
   "screenshot_score": 4,
   "locked": true,
   "screenshot_reviewed": true
+ },
+ "http://cheese-cube.pages.dev": {
+  "screenshot": "screenshots/browser-cheese-cube-black-ops-iii-custom-map.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/cheese-cube-black-ops-3-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "http://kino-der-toten.pages.dev": {
+  "screenshot": "screenshots/browser-kino-der-toten-zombies.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/kino-der-toten-zombies-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "http://moon-zombies.pages.dev": {
+  "screenshot": "screenshots/browser-moon-zombies.jpg",
+  "screenshot_source": "https://recompiledgames.com/img/games/moon-zombies-recompiled.jpg",
+  "screenshot_size": [
+   594,
+   425
+  ],
+  "screenshot_score": 3
+ },
+ "https://froydinger.github.io/claude-of-duty": {
+  "screenshot": "screenshots/browser-claude-of-duty-vibe-slops-ii-froydinger-mirror.jpg",
+  "screenshot_source": "https://froydinger.github.io/claude-of-duty/social/og-cover.png",
+  "screenshot_size": [
+   1200,
+   630
+  ],
+  "screenshot_score": 5
+ },
+ "https://goofyahhbro69420.github.io/Black-Ops-2": {
+  "screenshot": "screenshots/browser-claude-of-duty-vibe-slops-ii-goofyahhbro69420-mirr.jpg",
+  "screenshot_source": "live capture of https://goofyahhbro69420.github.io/Black-Ops-2/",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
+ },
+ "https://goofyahhbro69420.github.io/COD-ZOMBIES": {
+  "screenshot": "screenshots/browser-kino-der-toten-goofyahhbro69420-mirror.jpg",
+  "screenshot_source": "live capture of https://goofyahhbro69420.github.io/COD-ZOMBIES/",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
+ },
+ "https://theeagler1234-alt.github.io/kino-der-toten": {
+  "screenshot": "screenshots/browser-kino-der-toten-theeagler1234-mirror.jpg",
+  "screenshot_source": "live capture of https://theeagler1234-alt.github.io/kino-der-toten/",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
  }
 }
