@@ -318,7 +318,7 @@
   "top_pick": 23,
   "note": "Quake III Arena in the browser (WebAssembly ioquake3): click and play instantly, demo data included.",
   "screenshot": "screenshots/quake-iii-arena.jpg",
-  "screenshot_score": 4,
+  "screenshot_score": 5,
   "screenshot_source": "https://recompiledgames.com/img/games/quake-iii-arena-recompiled.jpg",
   "screenshot_size": [
    594,
@@ -327,7 +327,8 @@
   "checked": true,
   "video": "https://www.youtube.com/watch?v=de7PNFRHNts",
   "locked": true,
-  "screenshot_reviewed": true
+  "screenshot_reviewed": true,
+  "screenshot_kind": "gameplay"
  },
  "https://github.com/Warzone2100/warzone2100": {
   "screenshot": "screenshots/warzone2100-warzone2100.jpg",
@@ -440,20 +441,13 @@
    594,
    425
   ],
-  "screenshot_score": 3
+  "screenshot_score": 4,
+  "locked": true,
+  "screenshot_kind": "gameplay"
  },
  "http://ovz-game-production.up.railway.app": {
   "screenshot": "screenshots/browser-call-of-duty-modern-warfare-2.jpg",
   "screenshot_source": "https://recompiledgames.com/img/games/modern-warfare-2-recompiled.jpg",
-  "screenshot_size": [
-   594,
-   425
-  ],
-  "screenshot_score": 3
- },
- "https://cheese-cube.pages.dev": {
-  "screenshot": "screenshots/browser-cheese-cube-black-ops-iii-custom-map.jpg",
-  "screenshot_source": "https://recompiledgames.com/img/games/cheese-cube-black-ops-3-recompiled.jpg",
   "screenshot_size": [
    594,
    425
@@ -467,16 +461,20 @@
    1200,
    630
   ],
-  "screenshot_score": 5
+  "screenshot_score": 3,
+  "locked": true,
+  "screenshot_kind": "mixed"
  },
  "https://chronodivide.com": {
   "screenshot": "screenshots/browser-command-conquer-red-alert-2.jpg",
-  "screenshot_source": "https://recompiledgames.com/img/chrono-divide-og.jpg",
+  "screenshot_source": "gameplay frame from local backup /workspace/sites/command-conquer-red-alert-2/img/scr/screen1c.jpg",
   "screenshot_size": [
-   1200,
-   675
+   1280,
+   720
   ],
-  "screenshot_score": 5
+  "screenshot_score": 5,
+  "locked": true,
+  "screenshot_kind": "gameplay"
  },
  "https://csjs.live": {
   "screenshot": "screenshots/browser-counter-strike-1-6.jpg",
@@ -485,16 +483,20 @@
    594,
    425
   ],
-  "screenshot_score": 3
+  "screenshot_score": 5,
+  "locked": true,
+  "screenshot_kind": "gameplay"
  },
  "https://bunnyhop.lol": {
   "screenshot": "screenshots/browser-counter-strike-source-bunnyhop-bunnyhop-lol.jpg",
-  "screenshot_source": "https://recompiledgames.com/img/bunnyhop-lol-home.jpg",
+  "screenshot_source": "gameplay frame from local backup /workspace/sites/counter-strike-source-bunnyhop-bunnyhop-/thumbs/bh_aztec.hero.webp",
   "screenshot_size": [
-   1200,
-   630
+   1280,
+   720
   ],
-  "screenshot_score": 5
+  "screenshot_score": 4,
+  "locked": true,
+  "screenshot_kind": "gameplay"
  },
  "https://surfd.net": {
   "screenshot": "screenshots/browser-counter-strike-source-surf-surfd.jpg",
@@ -503,7 +505,9 @@
    594,
    425
   ],
-  "screenshot_score": 3
+  "screenshot_score": 4,
+  "locked": true,
+  "screenshot_kind": "gameplay"
  },
  "https://ctr.cmzi.uk": {
   "screenshot": "screenshots/browser-crash-team-racing-turbocharged.jpg",
@@ -521,7 +525,9 @@
    594,
    425
   ],
-  "screenshot_score": 3
+  "screenshot_score": 5,
+  "locked": true,
+  "screenshot_kind": "gameplay"
  },
  "https://silentspacemarine.com": {
   "screenshot": "screenshots/browser-doom-multiplayer-silent-space-marine.jpg",
@@ -530,7 +536,9 @@
    800,
    458
   ],
-  "screenshot_score": 4
+  "screenshot_score": 1,
+  "locked": true,
+  "screenshot_kind": "menu/logo/title"
  },
  "https://shmargus.github.io/GSRecomp": {
   "screenshot": "screenshots/browser-golden-sun-recompilation.jpg",
@@ -548,7 +556,9 @@
    594,
    425
   ],
-  "screenshot_score": 3
+  "screenshot_score": 4,
+  "locked": true,
+  "screenshot_kind": "gameplay"
  },
  "https://pixelsuft.github.io/hl": {
   "screenshot": "screenshots/browser-half-life-pixelsuft.jpg",
@@ -557,7 +567,9 @@
    594,
    425
   ],
-  "screenshot_score": 3
+  "screenshot_score": 5,
+  "locked": true,
+  "screenshot_kind": "gameplay"
  },
  "https://x8bitrain.github.io/webXash": {
   "screenshot": "screenshots/browser-half-life-and-counter-strike-1-6-webxash.jpg",
@@ -566,7 +578,9 @@
    594,
    425
   ],
-  "screenshot_score": 3
+  "screenshot_score": 5,
+  "locked": true,
+  "screenshot_kind": "gameplay"
  },
  "https://mitchellhynes.com/halo/halo.html": {
   "screenshot": "screenshots/browser-halo-combat-evolved.jpg",
@@ -575,7 +589,9 @@
    594,
    425
   ],
-  "screenshot_score": 3
+  "screenshot_score": 5,
+  "locked": true,
+  "screenshot_kind": "gameplay"
  },
  "https://hcemobile.com": {
   "screenshot": "screenshots/browser-halo-combat-evolved-mobile-hcemobile.jpg",
@@ -584,25 +600,9 @@
    1280,
    720
   ],
-  "screenshot_score": 3
- },
- "https://kino-der-toten.pages.dev": {
-  "screenshot": "screenshots/browser-kino-der-toten-zombies.jpg",
-  "screenshot_source": "https://recompiledgames.com/img/games/kino-der-toten-zombies-recompiled.jpg",
-  "screenshot_size": [
-   594,
-   425
-  ],
-  "screenshot_score": 3
- },
- "https://moon-zombies.pages.dev": {
-  "screenshot": "screenshots/browser-moon-zombies.jpg",
-  "screenshot_source": "https://recompiledgames.com/img/games/moon-zombies-recompiled.jpg",
-  "screenshot_size": [
-   594,
-   425
-  ],
-  "screenshot_score": 3
+  "screenshot_score": 1,
+  "locked": true,
+  "screenshot_kind": "menu/logo/title"
  },
  "https://www.netquake.io": {
   "screenshot": "screenshots/browser-netquake-io.jpg",
@@ -611,16 +611,9 @@
    594,
    425
   ],
-  "screenshot_score": 3
- },
- "https://pepsiman.ol.mr": {
-  "screenshot": "screenshots/browser-pepsiman-recompiled.jpg",
-  "screenshot_source": "live capture of https://pepsiman.ol.mr/",
-  "screenshot_size": [
-   1280,
-   720
-  ],
-  "screenshot_score": 3
+  "screenshot_score": 5,
+  "locked": true,
+  "screenshot_kind": "gameplay"
  },
  "https://pes6.optijuegos.net": {
   "screenshot": "screenshots/browser-pro-evolution-soccer-6.jpg",
@@ -629,7 +622,9 @@
    594,
    425
   ],
-  "screenshot_score": 3
+  "screenshot_score": 5,
+  "locked": true,
+  "screenshot_kind": "gameplay"
  },
  "https://q2.pieter.com": {
   "screenshot": "screenshots/browser-quake-ii.jpg",
@@ -638,7 +633,9 @@
    594,
    425
   ],
-  "screenshot_score": 3
+  "screenshot_score": 4,
+  "locked": true,
+  "screenshot_kind": "gameplay"
  },
  "https://q3.pieter.com": {
   "screenshot": "screenshots/browser-quake-iii-arena-q3-pieter-com.jpg",
@@ -647,7 +644,9 @@
    1280,
    833
   ],
-  "screenshot_score": 5
+  "screenshot_score": 5,
+  "locked": true,
+  "screenshot_kind": "gameplay"
  },
  "https://q1.pieter.com": {
   "screenshot": "screenshots/browser-quakeworld.jpg",
@@ -656,7 +655,9 @@
    594,
    425
   ],
-  "screenshot_score": 3
+  "screenshot_score": 5,
+  "locked": true,
+  "screenshot_kind": "gameplay"
  },
  "https://re-rac.github.io": {
   "screenshot": "screenshots/browser-ratchet-clank-pc-port.jpg",
@@ -674,7 +675,9 @@
    594,
    425
   ],
-  "screenshot_score": 3
+  "screenshot_score": 4,
+  "locked": true,
+  "screenshot_kind": "gameplay"
  },
  "https://skate.aaddpp.lol": {
   "screenshot": "screenshots/browser-skate-3.jpg",
@@ -683,16 +686,9 @@
    594,
    425
   ],
-  "screenshot_score": 3
- },
- "https://foxhollow.dev": {
-  "screenshot": "screenshots/browser-star-fox-adventures.jpg",
-  "screenshot_source": "https://foxhollow.dev/og.png",
-  "screenshot_size": [
-   1200,
-   630
-  ],
-  "screenshot_score": 5
+  "screenshot_score": 4,
+  "locked": true,
+  "screenshot_kind": "gameplay"
  },
  "https://jk.q3js.com": {
   "screenshot": "screenshots/browser-star-wars-jedi-knight-jedi-academy.jpg",
@@ -701,7 +697,9 @@
    1280,
    720
   ],
-  "screenshot_score": 3
+  "screenshot_score": 1,
+  "locked": true,
+  "screenshot_kind": "menu/logo/title"
  },
  "https://olivers.tools/play": {
   "screenshot": "screenshots/browser-super-mario-64-multiplayer.jpg",
@@ -710,7 +708,9 @@
    1200,
    857
   ],
-  "screenshot_score": 5
+  "screenshot_score": 5,
+  "locked": true,
+  "screenshot_kind": "gameplay"
  },
  "https://shar-wasm.cjoseph.workers.dev/?skipmovie": {
   "screenshot": "screenshots/browser-the-simpsons-hit-run.jpg",
@@ -719,7 +719,9 @@
    594,
    425
   ],
-  "screenshot_score": 3
+  "screenshot_score": 5,
+  "locked": true,
+  "screenshot_kind": "gameplay"
  },
  "https://ut.pieter.com": {
   "screenshot": "screenshots/browser-urban-terror-listed-as-unreal-tournament.jpg",
@@ -728,7 +730,9 @@
    1200,
    630
   ],
-  "screenshot_score": 5
+  "screenshot_score": 4,
+  "locked": true,
+  "screenshot_kind": "gameplay"
  },
  "https://vf1-recomp.pages.dev": {
   "screenshot": "screenshots/browser-virtua-fighter-arcade-recompilation.jpg",
@@ -741,30 +745,14 @@
  },
  "https://wadcmd.com": {
   "screenshot": "screenshots/browser-wadcmd-doom-in-the-browser.jpg",
-  "screenshot_source": "https://wadcmd.com/assets/img/og.png",
-  "screenshot_size": [
-   1200,
-   630
-  ],
-  "screenshot_score": 5
- },
- "https://wz2100.net/news/warzone-2100-web-edition": {
-  "screenshot": "screenshots/browser-warzone-2100-web-edition.jpg",
-  "screenshot_source": "https://wz2100.net/img/wz2100-open-graph-template.png",
+  "screenshot_source": "gameplay frame from local backup /workspace/sites/wadcmd-doom-in-the-browser/assets/img/screens/play.webp",
   "screenshot_size": [
    1280,
-   640
+   800
   ],
-  "screenshot_score": 5
- },
- "https://wasmarcade.com": {
-  "screenshot": "screenshots/browser-wasm-arcade-gta-minecraft-web-ports.jpg",
-  "screenshot_source": "https://wasmarcade.com/og/site-v2.png",
-  "screenshot_size": [
-   1200,
-   630
-  ],
-  "screenshot_score": 5
+  "screenshot_score": 5,
+  "locked": true,
+  "screenshot_kind": "gameplay"
  },
  "http://vel.gg/bo1z": {
   "screenshot": "screenshots/browser-call-of-duty-black-ops-zombies.jpg",
@@ -782,7 +770,9 @@
    594,
    425
   ],
-  "screenshot_score": 3
+  "screenshot_score": 2,
+  "locked": true,
+  "screenshot_kind": "menu/logo/title"
  },
  "http://surfd.net": {
   "screenshot": "screenshots/browser-counter-strike-source-surf-surfd.jpg",
@@ -885,12 +875,14 @@
  },
  "https://crashbash.app": {
   "screenshot": "screenshots/browser-crash-bash-online.jpg",
-  "screenshot_source": "https://recompiledgames.com/img/crash-bash-online-card.jpg",
+  "screenshot_source": "gameplay frame from local backup /workspace/sites/crash-bash-online/shots/jungle-bash.webp",
   "screenshot_size": [
-   1200,
-   630
+   1024,
+   768
   ],
-  "screenshot_score": 5
+  "screenshot_score": 5,
+  "locked": true,
+  "screenshot_kind": "gameplay"
  },
  "https://fortniteog.lol": {
   "screenshot": "screenshots/browser-fortnite-og-fortniteog-lol.jpg",
@@ -908,7 +900,9 @@
    568,
    406
   ],
-  "screenshot_score": 3
+  "screenshot_score": 3,
+  "locked": true,
+  "screenshot_kind": "mixed"
  },
  "https://web.archive.org/web/20261006055917/https://playgta5.com": {
   "screenshot": "screenshots/browser-grand-theft-auto-v.jpg",
@@ -917,7 +911,9 @@
    594,
    425
   ],
-  "screenshot_score": 3
+  "screenshot_score": 3,
+  "locked": true,
+  "screenshot_kind": "mixed"
  },
  "https://isle.pizza": {
   "screenshot": "screenshots/browser-lego-island.jpg",
@@ -926,7 +922,9 @@
    1280,
    720
   ],
-  "screenshot_score": 3
+  "screenshot_score": 2,
+  "locked": true,
+  "screenshot_kind": "menu/logo/title"
  },
  "https://wasmarcade.com/minecraft": {
   "screenshot": "screenshots/browser-minecraft-1-8-8-eaglercraftx.jpg",
@@ -935,25 +933,31 @@
    935,
    668
   ],
-  "screenshot_score": 4
+  "screenshot_score": 2,
+  "locked": true,
+  "screenshot_kind": "menu/logo/title"
  },
  "https://zombies.bitcoinsapi.com": {
   "screenshot": "screenshots/browser-nacht-der-untoten.jpg",
-  "screenshot_source": "https://recompiledgames.com/img/nacht-der-untoten-card.jpg",
+  "screenshot_source": "gameplay frame from local backup /workspace/sites/nacht-der-untoten/nacht/hero.jpg",
   "screenshot_size": [
-   1200,
-   600
+   1280,
+   926
   ],
-  "screenshot_score": 5
+  "screenshot_score": 5,
+  "locked": true,
+  "screenshot_kind": "gameplay"
  },
  "https://runescapeclassic.gold": {
   "screenshot": "screenshots/browser-runescape-classic.jpg",
-  "screenshot_source": "https://recompiledgames.com/img/games/runescape-classic-recompiled.jpg",
+  "screenshot_source": "gameplay frame from local backup /workspace/sites/runescape-classic/img/game-bg.webp",
   "screenshot_size": [
-   1200,
-   857
+   1280,
+   452
   ],
-  "screenshot_score": 5
+  "screenshot_score": 4,
+  "locked": true,
+  "screenshot_kind": "gameplay"
  },
  "https://smz.fun": {
   "screenshot": "screenshots/browser-super-mario-zombies.jpg",
@@ -962,16 +966,9 @@
    1200,
    630
   ],
-  "screenshot_score": 5
- },
- "https://github.com/SubmitGame/awesome-decomp-games": {
-  "screenshot": "screenshots/browser-submitgame-awesome-decomp-games.jpg",
-  "screenshot_source": "https://opengraph.githubassets.com/d5e5442d362c0153d08c50747ec5db0ab3c9a99fd9d19b6ca20262d98b8c352a/SubmitGame/awesome-decomp-games",
-  "screenshot_size": [
-   1200,
-   600
-  ],
-  "screenshot_score": 5
+  "screenshot_score": 2,
+  "locked": true,
+  "screenshot_kind": "menu/logo/title"
  },
  "https://froydinger.github.io/claude-of-duty/": {
   "screenshot": "screenshots/browser-claude-of-duty-vibe-slops-ii-froydinger-mirror.jpg",
@@ -1017,33 +1014,6 @@
   "locked": true,
   "screenshot_reviewed": true
  },
- "http://cheese-cube.pages.dev": {
-  "screenshot": "screenshots/browser-cheese-cube-black-ops-iii-custom-map.jpg",
-  "screenshot_source": "https://recompiledgames.com/img/games/cheese-cube-black-ops-3-recompiled.jpg",
-  "screenshot_size": [
-   594,
-   425
-  ],
-  "screenshot_score": 3
- },
- "http://kino-der-toten.pages.dev": {
-  "screenshot": "screenshots/browser-kino-der-toten-zombies.jpg",
-  "screenshot_source": "https://recompiledgames.com/img/games/kino-der-toten-zombies-recompiled.jpg",
-  "screenshot_size": [
-   594,
-   425
-  ],
-  "screenshot_score": 3
- },
- "http://moon-zombies.pages.dev": {
-  "screenshot": "screenshots/browser-moon-zombies.jpg",
-  "screenshot_source": "https://recompiledgames.com/img/games/moon-zombies-recompiled.jpg",
-  "screenshot_size": [
-   594,
-   425
-  ],
-  "screenshot_score": 3
- },
  "https://froydinger.github.io/claude-of-duty": {
   "screenshot": "screenshots/browser-claude-of-duty-vibe-slops-ii-froydinger-mirror.jpg",
   "screenshot_source": "https://froydinger.github.io/claude-of-duty/social/og-cover.png",
@@ -1051,7 +1021,9 @@
    1200,
    630
   ],
-  "screenshot_score": 5
+  "screenshot_score": 2,
+  "locked": true,
+  "screenshot_kind": "menu/logo/title"
  },
  "https://goofyahhbro69420.github.io/Black-Ops-2": {
   "screenshot": "screenshots/browser-claude-of-duty-vibe-slops-ii-goofyahhbro69420-mirr.jpg",
@@ -1060,7 +1032,9 @@
    1280,
    720
   ],
-  "screenshot_score": 3
+  "screenshot_score": 1,
+  "locked": true,
+  "screenshot_kind": "menu/logo/title"
  },
  "https://goofyahhbro69420.github.io/COD-ZOMBIES": {
   "screenshot": "screenshots/browser-kino-der-toten-goofyahhbro69420-mirror.jpg",
@@ -1069,7 +1043,9 @@
    1280,
    720
   ],
-  "screenshot_score": 3
+  "screenshot_score": 2,
+  "locked": true,
+  "screenshot_kind": "menu/logo/title"
  },
  "https://theeagler1234-alt.github.io/kino-der-toten": {
   "screenshot": "screenshots/browser-kino-der-toten-theeagler1234-mirror.jpg",
@@ -1078,7 +1054,9 @@
    1280,
    720
   ],
-  "screenshot_score": 3
+  "screenshot_score": 2,
+  "locked": true,
+  "screenshot_kind": "menu/logo/title"
  },
  "https://github.com/troyedwardsjr/z2rs": {
   "screenshot": "screenshots/browser-troyedwardsjr-z2rs.jpg",
@@ -1087,6 +1065,19 @@
    1280,
    720
   ],
-  "screenshot_score": 3
+  "screenshot_score": 1,
+  "locked": true,
+  "screenshot_kind": "menu/logo/title"
+ },
+ "https://vel.gg/bo1z/moon": {
+  "screenshot": "screenshots/browser-moon-black-ops-zombies-vel-gg.jpg",
+  "screenshot_source": "gameplay frame from live capture of https://vel.gg/bo1z/moon",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 5,
+  "locked": true,
+  "screenshot_kind": "gameplay"
  }
 }

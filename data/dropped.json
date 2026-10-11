@@ -14,13 +14,13 @@
  {
   "title": "2004scape",
   "url": "https://2004scape.org",
-  "status": 403,
+  "status": 200,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
   "title": "2009scape",
   "url": "https://2009scape.org",
-  "status": 403,
+  "status": 200,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
@@ -434,8 +434,8 @@
  {
   "title": "Barbarian",
   "url": "http://barbarian.1987.free.fr/indexEN.htm",
-  "status": 200,
-  "reason": "awesome-game-remakes-only, <20 stars"
+  "status": 0,
+  "reason": "dead link"
  },
  {
   "title": "Battle Arena Toshinden (Battle Arena Toshinden Recompiled)",
@@ -710,12 +710,6 @@
  {
   "title": "Bushido Blade 2",
   "url": "https://github.com/alexbeavs-ps1-ports/bushido-blade-2-recomp",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Call of Duty 3",
-  "url": "https://github.com/zenit2893-cmyk/project-1944",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
@@ -1412,6 +1406,12 @@
  {
   "title": "Dragon Ball Z: The Legacy of Goku",
   "url": "https://github.com/mstan/DragonBallZLegacyOfGokuRecomp",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "Dragon Ball Z: The Legacy of Goku II",
+  "url": "https://github.com/mstan/DragonBallZLegacyofGokuIIRecomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
@@ -2136,6 +2136,12 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
+  "title": "Geometry Wars: Retro Evolved 2",
+  "url": "https://github.com/saulob/geometry-wars-retro-evolved-2-recompiled",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
   "title": "Gex 3: Deep Pocket Gecko",
   "url": "https://github.com/exodus122/gex3gbc",
   "status": 200,
@@ -2250,12 +2256,6 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
-  "title": "Gran Turismo 2",
-  "url": "https://github.com/GTTeancum/OpenGTPS1",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
   "title": "Gran Turismo 2 Simulation and Arcade discs",
   "url": "https://github.com/SubhanHabib/OpenGTPS1",
   "status": 200,
@@ -2342,8 +2342,8 @@
  {
   "title": "Guitar Hero II",
   "url": "https://github.com/ieee802dot11ac/gh2",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
+  "status": 404,
+  "reason": "dead link"
  },
  {
   "title": "Gumshoe",
@@ -2460,6 +2460,12 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
+  "title": "Hard Corps: Uprising",
+  "url": "https://github.com/saulob/hard-corps-uprising-recompiled",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
   "title": "Harry Potter and the Chamber of Secrets",
   "url": "https://github.com/ant0-blase/HPCOS-GC-RECOMP",
   "status": 200,
@@ -2504,7 +2510,7 @@
  {
   "title": "Hedgewars",
   "url": "http://webwars.link",
-  "status": 400,
+  "status": 0,
   "reason": "dead link"
  },
  {
@@ -3642,6 +3648,12 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
+  "title": "Metroid Prime 2",
+  "url": "https://github.com/primedecomp/echoes",
+  "status": 404,
+  "reason": "dead link"
+ },
+ {
   "title": "Metroid Prime Hunters",
   "url": "https://github.com/FermataRest/MetroidPrimeHuntersRecomp",
   "status": 200,
@@ -3790,12 +3802,6 @@
   "url": "https://github.com/alexbeavs-ps1-ports/mortal-kombat-trilogy-recomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Mortal Kombat: Deception",
-  "url": "https://github.com/skylaralbers/mkd-decomp-local-",
-  "status": 404,
-  "reason": "dead link"
  },
  {
   "title": "Mother (EarthBound Beginnings)",
@@ -4200,12 +4206,6 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
-  "title": "Perfect Dark (Perfect Dark Port [Android])",
-  "url": "https://github.com/izzy2lost/perfect_dark",
-  "status": 200,
-  "reason": "quiver-only, <100 stars"
- },
- {
   "title": "Phantasy Star Portable 2: Infinity",
   "url": "https://github.com/zmbkilla/PSP2I_Recomp",
   "status": 200,
@@ -4472,7 +4472,7 @@
  {
   "title": "PopRE Bug Tracker",
   "url": "https://www.populous3.info/bugs/my_view_page.php",
-  "status": 403,
+  "status": 200,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
@@ -4540,12 +4540,6 @@
   "url": "https://github.com/kirby1237/PuyoPuyoBoxRecomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Q2RTXPerimental",
-  "url": "https://github.com/PolyhedronStudio/Q2RTXPerimental",
-  "status": 200,
-  "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
   "title": "qk1",
@@ -4654,6 +4648,12 @@
   "url": "https://github.com/Graine25/raskulls",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "Ratchet & Clank (ReRAC Launcher)",
+  "url": "https://github.com/re-rac/rerac-launcher",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
  },
  {
   "title": "Ratchet & Clank: Going Commando",
@@ -5070,6 +5070,12 @@
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
+  "title": "Sexy Parodius",
+  "url": "https://github.com/NJH-1001/SexyParoRecomp",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
   "title": "Shadow of the Colossus",
   "url": "https://github.com/sp00nznet/shadowofthecolossus",
   "status": 200,
@@ -5464,12 +5470,6 @@
   "url": "https://github.com/ssxdecomp/ssxtricky",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "SSX Tricky (OpenTricky)",
-  "url": "https://github.com/GiZcesi/OpenTricky",
-  "status": 200,
-  "reason": "quiver-only, <100 stars"
  },
  {
   "title": "Star Fox 64",
@@ -6192,6 +6192,12 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
+  "title": "The Impossible Game",
+  "url": "https://github.com/fr3dsp/TheImpossibleGame-Decomp",
+  "status": 404,
+  "reason": "dead link"
+ },
+ {
   "title": "The Jungle Book",
   "url": "https://github.com/not-chciken/jungle-book-gb-disassembly",
   "status": 200,
@@ -6474,6 +6480,12 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
+  "title": "Tomb Raider (OpenLara)",
+  "url": "http://xproger.info/projects/OpenLara",
+  "status": 0,
+  "reason": "dead link"
+ },
+ {
   "title": "Tomba! 2: The Evil Swine Return",
   "url": "https://github.com/erneztox/tomba2-decomp",
   "status": 200,
@@ -6638,12 +6650,6 @@
  {
   "title": "Turok",
   "url": "https://github.com/sp00nznet/turok",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Turok 2: Seeds of Evil",
-  "url": "https://github.com/mgrz18/turok2-decomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },

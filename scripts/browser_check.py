@@ -5,7 +5,7 @@ entries with ok=false from the browser section. Skips silently if Playwright is 
 import json, os, re, shutil, time
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BAD = re.compile(r"content removed|taken down|copyright notice|dmca takedown|error 10\d\d|cname cross-user|site not found|"
-                 r"deployment not found|application error|404 not found|this site can.t be reached|domain .* for sale|suspended", re.I)
+                 r"deployment not found|application error|404 not found|this site can.t be reached|domain .* for sale|suspended|worker threw exception|redirecting\.\.\.", re.I)
 def main():
     try:
         from playwright.sync_api import sync_playwright

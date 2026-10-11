@@ -58,7 +58,6 @@
   "https://github.com/open-goal/launcher",
   "https://github.com/LoreanXavier/pt-pc",
   "https://github.com/Gzh0821/pvzg_site",
-  "https://github.com/re-rac/rerac-launcher",
   "https://github.com/qurious-pixel/SMAS_Launcher",
   "https://github.com/chasem-dev/sms-launcher",
   "https://github.com/RadzPrower/Super-Metroid-Launcher",
@@ -66,7 +65,15 @@
   "https://github.com/UZDoom/UZDoom",
   "https://github.com/TeamWheelWizard/WheelWizard",
   "https://github.com/TeamGDB/Yakumo",
-  "https://github.com/xander-haj/Z3R-Launcher"
+  "https://github.com/xander-haj/Z3R-Launcher",
+  "https://kino-der-toten.pages.dev",
+  "https://moon-zombies.pages.dev",
+  "https://cheese-cube.pages.dev",
+  "https://pepsiman.ol.mr",
+  "https://wasmarcade.com",
+  "https://wz2100.net/news/warzone-2100-web-edition",
+  "https://github.com/SubmitGame/awesome-decomp-games",
+  "https://foxhollow.dev"
  ],
  "set": {
   "https://github.com/Warzone2100/warzone2100": {
@@ -225,7 +232,8 @@
   },
   "http://skate.aaddpp.lol": {
    "title": "Skate 3 (fan browser game)",
-   "description": "Unofficial, non-commercial skate. 3 fan game in the browser; no EA game code."
+   "description": "Unofficial, non-commercial skate. 3 fan game in the browser; no EA game code.",
+   "needs_assets": "byo"
   },
   "http://ut.pieter.com": {
    "title": "Urban Terror (ut.pieter.com)",
@@ -244,7 +252,57 @@
    "title": "Quake III Arena (q3js)"
   },
   "http://johnimril.github.io/diablo_web": {
-   "title": "Diablo (diablo_web)"
+   "title": "Diablo (diablo_web)",
+   "needs_assets": "demo"
+  },
+  "https://ctr.cmzi.uk": {
+   "play_url": null,
+   "type": "source-port",
+   "release_url": "https://ctr.cmzi.uk/#downloads",
+   "note": "Native PC port (Windows/Linux) built on the CTR decompilation; not a browser game."
+  },
+  "https://shmargus.github.io/GSRecomp": {
+   "play_url": null,
+   "type": "static-recomp",
+   "release_url": "https://github.com/Shmargus/GSRecomp/releases",
+   "info_url": "https://shmargus.github.io/GSRecomp/"
+  },
+  "https://re-rac.github.io": {
+   "play_url": null,
+   "type": "source-port",
+   "release_url": "https://github.com/re-rac/rerac-launcher/releases"
+  },
+  "https://vf1-recomp.pages.dev": {
+   "play_url": null,
+   "type": "static-recomp",
+   "release_url": "https://github.com/mr-finster/vf1-recomp/releases"
+  },
+  "https://github.com/JackPriceBurns/foxhollow": {
+   "type": "source-port",
+   "release_url": "https://github.com/JackPriceBurns/foxhollow/releases",
+   "homepage": "https://foxhollow.dev/",
+   "title": "Star Fox Adventures (Foxhollow)"
+  },
+  "https://generals.wasm.ltd": {
+   "needs_assets": "byo"
+  },
+  "https://mitchellhynes.com/halo/halo.html": {
+   "needs_assets": "byo"
+  },
+  "https://hcemobile.com": {
+   "needs_assets": "byo"
+  },
+  "https://joncodeofficial.github.io/gta-vice-city-wasm": {
+   "needs_assets": "byo"
+  },
+  "https://jk.q3js.com": {
+   "needs_assets": "byo"
+  },
+  "http://x8bitrain.github.io/webXash": {
+   "needs_assets": "demo"
+  },
+  "https://www.netquake.io": {
+   "needs_assets": "demo"
   }
  },
  "browser_verified": {
@@ -267,7 +325,6 @@
   "super-mario-sunshine-sms-launcher",
   "supermetroid-snesrevsupermetroidlauncher",
   "thelegendofzeldaalinktothepast-snesrevzelda3launcher",
-  "thelegendofzeldaalinktothepast-z3rlauncher",
-  "ratchet-clank-rerac-launcher"
+  "thelegendofzeldaalinktothepast-z3rlauncher"
  ]
 }

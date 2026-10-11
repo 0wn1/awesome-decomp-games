@@ -42,7 +42,7 @@ L += ["- [How entries are rated](#how-entries-are-rated)", "- [Sources](#sources
 
 browser = sorted([e for e in G if e.get("browser_playable")], key=lambda e: (-(e.get("screenshot") is not None), -e["score"], e["title"].lower()))
 L += ["## Play in your browser", "", f"{len(browser)} games you can launch straight from a browser tab (WebAssembly/JS ports and recompilations). Links are re-checked daily in a real browser; ones that are taken down or broken are hidden. Some ask for files from your own copy of the game. Never install a launcher or extension a site pushes on you.", ""]
-ASSETS = {"instant": "plays instantly", "byo": "needs your game files", "unknown": ""}
+ASSETS = {"instant": "plays instantly", "byo": "needs your game files", "demo": "free demo, no game files needed", "unknown": ""}
 cells = []
 for e in browser:
     img = f'<a href="{e["play_url"]}"><img src="{e["screenshot"]}" width="240" alt="{esc(e["title"])}"></a><br>' if e.get("screenshot") else ""

@@ -558,5 +558,15 @@
   "description": "Clean-room Rust reconstruction of Zelda II; plays in the browser with your own Zelda II (USA) ROM.",
   "play_url": "https://z2rs.com/",
   "needs_assets": "byo"
+ },
+ {
+  "title": "Moon (Black Ops Zombies, vel.gg)",
+  "url": "https://vel.gg/bo1z/moon",
+  "play_url": "https://vel.gg/bo1z/moon",
+  "platform": "PC",
+  "type": "browser",
+  "source": "manual",
+  "needs_assets": "instant",
+  "description": "Black Ops 'Moon' zombies map running in the browser (part of the vel.gg Black Ops zombies port; ~400 MB download). Replaces the hijacked moon-zombies.pages.dev."
  }
 ]
