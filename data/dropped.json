@@ -12,6 +12,12 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
+  "title": "2 Ship 2 Harkinian (2 Ship 2 Harkinian [Android])",
+  "url": "https://github.com/linkzenic/2ship2harkinian-Android",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
+ },
+ {
   "title": "2004scape",
   "url": "https://2004scape.org",
   "status": 200,
@@ -246,6 +252,12 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
+  "title": "Animal Crossing: City Folk",
+  "url": "https://github.com/ACreTeam/cf-decomp",
+  "status": 404,
+  "reason": "dead link"
+ },
+ {
   "title": "Animal Crossing: New Leaf",
   "url": "https://github.com/AlgebraManiacABC/acnlwa-decomp",
   "status": 200,
@@ -444,6 +456,12 @@
   "reason": "quiver-only, <100 stars"
  },
  {
+  "title": "Battletanx",
+  "url": "https://github.com/AbuN64/battletanx-decomp",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
   "title": "BattleTanx",
   "url": "https://github.com/bdragoncore/battle-tanx-recomp",
   "status": 200,
@@ -628,6 +646,12 @@
   "url": "https://github.com/alexbeavs-ps1-ports/brave-fencer-musashi-recomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "Breakdown (Breakdown-Recompilation)",
+  "url": "https://github.com/Heromachine/Breakdown-Recompilation",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
  },
  {
   "title": "Breath of Fire III",
@@ -1560,12 +1584,6 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
-  "title": "EarthBound (Phase Distorter)",
-  "url": "https://github.com/TheRunaway5/Phase-Distorter",
-  "status": 200,
-  "reason": "quiver-only, <100 stars"
- },
- {
   "title": "Earthbound Companion",
   "url": "https://github.com/rages4calm/earthbound-companion",
   "status": 200,
@@ -2130,12 +2148,6 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
-  "title": "Geometry Wars: Retro Evolved 2",
-  "url": "https://github.com/saulob/geometry-wars-retro-evolved-2-recompiled",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
   "title": "Gex 3: Deep Pocket Gecko",
   "url": "https://github.com/exodus122/gex3gbc",
   "status": 200,
@@ -2456,12 +2468,6 @@
  {
   "title": "Hang-On",
   "url": "https://github.com/xrip/hangon",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Hard Corps: Uprising",
-  "url": "https://github.com/saulob/hard-corps-uprising-recompiled",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
@@ -4550,8 +4556,8 @@
  {
   "title": "qk1",
   "url": "https://git.sr.ht/~ft/qk1",
-  "status": 200,
-  "reason": "awesome-game-remakes-only, <20 stars"
+  "status": 0,
+  "reason": "dead link"
  },
  {
   "title": "qk1",
@@ -4658,6 +4664,12 @@
  {
   "title": "Ratchet & Clank (ReRAC Launcher)",
   "url": "https://github.com/re-rac/rerac-launcher",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
+ },
+ {
+  "title": "Ratchet & Clank: Clone Home (rac-j2me-remastered)",
+  "url": "https://github.com/samioan/rac-j2me-remastered",
   "status": 200,
   "reason": "quiver-only, <100 stars"
  },
@@ -5076,6 +5088,12 @@
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
+  "title": "Shadow Hearts",
+  "url": "https://git.sr.ht/~benoitren/shadowheartsdecompilation",
+  "status": 0,
+  "reason": "dead link"
+ },
+ {
   "title": "Shadow of the Colossus",
   "url": "https://github.com/sp00nznet/shadowofthecolossus",
   "status": 200,
@@ -5084,6 +5102,12 @@
  {
   "title": "Shadow the Hedgehog",
   "url": "https://github.com/nicolasserpa/shadow-the-hedgehog-recomp",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "Shining Soul 2",
+  "url": "https://github.com/MatyMeatBoy/SS2Recomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
@@ -5232,6 +5256,12 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
+  "title": "Snowboard Kids (Snowboard Kids: Recompiled)",
+  "url": "https://github.com/cdlewis/snowboardkids-recomp",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
+ },
+ {
   "title": "Soldier of Fortune",
   "url": "https://github.com/sp00nznet/sof",
   "status": 200,
@@ -5242,6 +5272,12 @@
   "url": "https://github.com/dvilelaf/opendana",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "Sonic & Knuckles Collection (1997)",
+  "url": "https://git.sr.ht/~benoitren/skccport",
+  "status": 0,
+  "reason": "dead link"
  },
  {
   "title": "Sonic Advance 2",
@@ -5326,6 +5362,12 @@
   "url": "https://github.com/ElspethThePict/S1Forever",
   "status": 200,
   "reason": "quiver-only, <100 stars"
+ },
+ {
+  "title": "Sonic the Hedgehog CD (Sonic Gems Collection version)",
+  "url": "https://git.sr.ht/~benoitren/soniccddecompilation",
+  "status": 0,
+  "reason": "dead link"
  },
  {
   "title": "Sonic the Hedgehog: Pocket Adventure",
@@ -6258,6 +6300,12 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
+  "title": "The Legend of Zelda: Majora's Mask (Zelda64 Recompiled [Android])",
+  "url": "https://github.com/linkzenic/Zelda64Recomp-Android",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
+ },
+ {
   "title": "The Legend of Zelda: Majora's Mask 3D",
   "url": "https://github.com/SomeoneIsWorking/mm3d-decomp",
   "status": 200,
@@ -6661,7 +6709,7 @@
  },
  {
   "title": "Turok: Rage Wars",
-  "url": "https://github.com/melalawi/ragewars-decomp",
+  "url": "https://github.com/AbuN64/ragewars-decomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
@@ -7312,6 +7360,12 @@
   "url": "https://github.com/jkratz55/zelda-2-recomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "Zombies Ate My Neighbors (Zombies Ate My Neighbors PC Port)",
+  "url": "https://github.com/moshferatu/zombies-ate-my-neighbors-pc-port",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
  },
  {
   "title": "Zone 66",
