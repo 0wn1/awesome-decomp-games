@@ -121,6 +121,8 @@ def main():
             dropped.append({"title": r["title"], "url": url, "status": r.get("link_status"), "reason": "quiver-only, <100 stars"}); continue
         if srcs == ["unbaked"] and ((stars or 0) < 10 or g.get("fork") or not g):
             dropped.append({"title": r["title"], "url": url, "status": r.get("link_status"), "reason": "unbaked-only, <10 stars, fork or not on GitHub"}); continue
+        if srcs == ["portsdr"] and ((stars or 0) < 10 or g.get("fork") or not g):
+            dropped.append({"title": r["title"], "url": url, "status": r.get("link_status"), "reason": "portsdr-only, <10 stars, fork or not on GitHub"}); continue
         if srcs == ["awesome-game-remakes"] and (stars or 0) < 20:
             dropped.append({"title": r["title"], "url": url, "status": r.get("link_status"), "reason": "awesome-game-remakes-only, <20 stars"}); continue
         if key in seen:  # canonical-URL dedupe (renamed repos)
@@ -207,6 +209,7 @@ SOURCES = [
  {"name": "recomp.fyi (entries with >=10 stars)", "url": "https://recomp.fyi/"},
  {"name": "Quiver Launcher catalog (entries with >=100 stars)", "url": "https://quiverlauncher.com/"},
  {"name": "unbaked.games registry (GitHub entries with >=10 stars)", "url": "https://unbaked.games/"},
+ {"name": "portsdr.com (GitHub entries with >=10 stars)", "url": "https://portsdr.com/"},
  {"name": "radek-sprta/awesome-game-remakes", "url": "https://github.com/radek-sprta/awesome-game-remakes"},
  {"name": "X post by @RadiantOpti (browser games list)", "url": "https://x.com/RadiantOpti/status/2108068632991256995"},
  {"name": "bailo167/awesome-game-mashups (CC0; mods & mashups with 25+ stars)", "url": "https://github.com/bailo167/awesome-game-mashups"},

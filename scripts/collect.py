@@ -185,6 +185,14 @@ if have("unbaked.json"):
         r = add("unbaked", t, u["url"], u.get("platform", ""), u.get("hint", ""), u.get("description", ""), {"unbaked_url": u.get("unbaked_url")})
         if r and u.get("ai"): r["ai_flag"] = True
 
+# 8c. portsdr.com cards (raw/portsdr.json from scripts/fetch_portsdr.py); build.py keeps portsdr-only entries with 10+ stars
+if have("portsdr.json"):
+    for c in json.load(open(os.path.join(RAW, "portsdr.json"))):
+        pj = c.get("project") or ""
+        t = c["game"] if not pj or re.sub(r"[^a-z0-9]", "", pj.lower()) in re.sub(r"[^a-z0-9]", "", c["game"].lower()) else f'{c["game"]} ({pj})'
+        r = add("portsdr", t, c["url"], c.get("platform", ""), "port", "")
+        if r and c.get("ai"): r["ai_flag"] = True
+
 # 9. source tags (data/source_tags.json): {"source-id": [urls]} -> tag records whose url/play_url matches
 tp = os.path.join(ROOT, "data", "source_tags.json")
 if os.path.exists(tp):
