@@ -4934,8 +4934,8 @@
  {
   "title": "Populous The Beginning - Multiverse",
   "url": "https://thebeginning.uk/multiverse",
-  "status": 0,
-  "reason": "dead link"
+  "status": 200,
+  "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
   "title": "Populous: Reincarnated",
@@ -5554,12 +5554,6 @@
   "url": "https://sourceforge.net/projects/seven-kingdoms-ambition",
   "status": 200,
   "reason": "awesome-game-remakes-only, <20 stars"
- },
- {
-  "title": "Shadow Hearts",
-  "url": "https://git.sr.ht/~benoitren/shadowheartsdecompilation",
-  "status": 0,
-  "reason": "dead link"
  },
  {
   "title": "Shadow of the Colossus",
@@ -7664,7 +7658,7 @@
  {
   "title": "Wing Commander 1 Reloaded",
   "url": "https://wingcomreloaded.itch.io/wingcommander1reloaded",
-  "status": 200,
+  "status": 429,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {

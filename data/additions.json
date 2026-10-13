@@ -678,5 +678,14 @@
   "description": "Single-screen layout and frame interpolation for Majora's Mask 3D (runs on an emulator).",
   "host": "Majora's Mask 3D (emulated)",
   "guest": "DekUI"
+ },
+ {
+  "title": "Diablo (diabloweb)",
+  "url": "https://github.com/d07RiV/diabloweb",
+  "play_url": "https://d07riv.github.io/diabloweb/",
+  "platform": "PC",
+  "type": "browser",
+  "source": "manual",
+  "description": "Diablo (DevilutionX-based) compiled to WebAssembly. Plays the free shareware demo instantly; load your own DIABDAT.MPQ for the full game."
  }
 ]
