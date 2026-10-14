@@ -2880,12 +2880,6 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
-  "title": "Hyrule Warriors: Definitive Edition (Hyrule Warriors: Definitive Edition Recomp)",
-  "url": "https://github.com/sonsegajp/HWDER",
-  "status": 200,
-  "reason": "quiver-only, <100 stars"
- },
- {
   "title": "Ico",
   "url": "https://github.com/nathanialf/ico-recomp",
   "status": 200,

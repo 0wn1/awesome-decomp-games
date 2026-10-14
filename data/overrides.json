@@ -56,7 +56,6 @@
   "https://github.com/ZDoom/gzdoom",
   "https://github.com/mgba-emu/mgba",
   "https://github.com/open-goal/launcher",
-  "https://github.com/LoreanXavier/pt-pc",
   "https://github.com/Gzh0821/pvzg_site",
   "https://github.com/qurious-pixel/SMAS_Launcher",
   "https://github.com/chasem-dev/sms-launcher",
@@ -75,8 +74,6 @@
   "https://github.com/SubmitGame/awesome-decomp-games",
   "https://foxhollow.dev",
   "https://github.com/LightVelox/sotc-vibe-pc",
-  "https://github.com/andrewnakas/skate3-ios-setup",
-  "https://github.com/andrewnakas/skate3-android",
   "https://github.com/bwapi/bwapi",
   "https://github.com/libsm64/libsm64-blender",
   "https://github.com/ares-emulator/ares"
@@ -323,7 +320,6 @@
   "doom-uzdoom",
   "opengoal-launcher-opengoal-launcher",
   "mario-kart-wii-wheel-wizard",
-  "p-t-p-t-for-pc",
   "plantsvszombies2-pvz2gardendless",
   "monsterhunterportable3rdhdver-yakumo",
   "crashbandicoot-crashbandicootlauncher",
@@ -333,8 +329,5 @@
   "thelegendofzeldaalinktothepast-snesrevzelda3launcher",
   "thelegendofzeldaalinktothepast-z3rlauncher"
  ],
- "unbaked_exclude": [
-  "p-t",
-  "fifa-street-2012"
- ]
+ "unbaked_exclude": []
 }
