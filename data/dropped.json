@@ -26,7 +26,7 @@
  {
   "title": "2009scape",
   "url": "https://2009scape.org",
-  "status": 403,
+  "status": 200,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
@@ -482,8 +482,8 @@
  {
   "title": "Barbarian",
   "url": "http://barbarian.1987.free.fr/indexEN.htm",
-  "status": 200,
-  "reason": "awesome-game-remakes-only, <20 stars"
+  "status": 0,
+  "reason": "dead link"
  },
  {
   "title": "Battalion Wars 2",
@@ -596,18 +596,6 @@
  {
   "title": "Blood Omen: Legacy of Kain",
   "url": "https://github.com/alexbeavs-ps1-ports/blood-omen-legacy-of-kain-recomp",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Bloodborne",
-  "url": "https://github.com/bloodborne-native/bloodborne-recomp",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Bloodborne",
-  "url": "https://github.com/Astrr00/BloodbornePC",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
@@ -734,12 +722,6 @@
  {
   "title": "Bulánci",
   "url": "https://github.com/lofcz/bulanci-decomp",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Burnout 2: Point of Impact",
-  "url": "https://github.com/timftw21/burnout2-recompilation",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
@@ -1204,12 +1186,6 @@
   "url": "https://github.com/Simon358/ctr-native-android",
   "status": 200,
   "reason": "quiver-only, <100 stars"
- },
- {
-  "title": "Crash Team Racing: Nitro-Fueled (CTR-NitroFueled-PC)",
-  "url": "https://github.com/GetLostIn/CTR-NitroFueled-PC",
-  "status": 200,
-  "reason": "portsdr-only, <10 stars, fork or not on GitHub"
  },
  {
   "title": "Crazy Taxi",
@@ -2701,12 +2677,6 @@
  },
  {
   "title": "Halo: Reach",
-  "url": "https://github.com/Dyotson/RecompiledHaloReach",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Halo: Reach",
   "url": "https://github.com/twist84/reach_cache_debug_recomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
@@ -2774,7 +2744,7 @@
  {
   "title": "Hedgewars",
   "url": "http://webwars.link",
-  "status": 400,
+  "status": 0,
   "reason": "dead link"
  },
  {
@@ -2908,6 +2878,12 @@
   "url": "https://github.com/antxiko/HyperSports3-disassembly",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "Hyrule Warriors: Definitive Edition (Hyrule Warriors: Definitive Edition Recomp)",
+  "url": "https://github.com/sonsegajp/HWDER",
+  "status": 200,
+  "reason": "quiver-only, <100 stars"
  },
  {
   "title": "Ico",
@@ -3559,7 +3535,7 @@
  },
  {
   "title": "Mario & Luigi: Partners in Time",
-  "url": "https://github.com/aricloverEXTRA/PartnersInTime-Decomp-LAUNCHER",
+  "url": "https://github.com/aricloverEXTRA/PartnersInTimeDECOMP",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
@@ -4812,12 +4788,6 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
-  "title": "Pokémon Mystery Dungeon: Red Rescue Team",
-  "url": "https://github.com/Asphaltian/pmd-green",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
   "title": "Pokémon Pinball",
   "url": "https://github.com/omegakatana92/Pokemon-Pinball-Recomp",
   "status": 200,
@@ -4916,7 +4886,7 @@
  {
   "title": "PopRE Bug Tracker",
   "url": "https://www.populous3.info/bugs/my_view_page.php",
-  "status": 403,
+  "status": 200,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
@@ -5665,12 +5635,6 @@
  },
  {
   "title": "Skate 3",
-  "url": "https://github.com/HelmXGaming/Skate-3-Recompiled--Work-in-Progress-",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Skate 3",
   "url": "https://github.com/chasmlol/sk83-recomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
@@ -6260,12 +6224,6 @@
  {
   "title": "Super Mario 64 DS",
   "url": "https://github.com/SahilKDas/64DS-DX",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Super Mario 64 DS",
-  "url": "https://github.com/mstan/supermario64dsrecomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
@@ -7068,6 +7026,12 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
+  "title": "Tomb Raider (OpenLara)",
+  "url": "http://xproger.info/projects/OpenLara",
+  "status": 0,
+  "reason": "dead link"
+ },
+ {
   "title": "Tomba! 2: The Evil Swine Return",
   "url": "https://github.com/erneztox/tomba2-decomp",
   "status": 200,
@@ -7297,6 +7261,12 @@
  },
  {
   "title": "UFC Undisputed 3",
+  "url": "https://github.com/paulogaab21/ufc3recomp",
+  "status": 404,
+  "reason": "dead link"
+ },
+ {
+  "title": "UFC Undisputed 3",
   "url": "https://github.com/automoto/Unchallenged3",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
@@ -7322,6 +7292,12 @@
  {
   "title": "Ultra Street Fighter IV",
   "url": "https://github.com/BelmanteGu/UltraStreetFighterIVRecomp",
+  "status": 404,
+  "reason": "dead link"
+ },
+ {
+  "title": "Ultracraft",
+  "url": "https://github.com/alfr0762/ultracraft",
   "status": 404,
   "reason": "dead link"
  },
@@ -7480,12 +7456,6 @@
   "url": "https://github.com/vs-sr-dev/pc-virtualhydlide",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Viva Piñata",
-  "url": "https://github.com/crabinacrabic/VivaPinataRecomp",
-  "status": 404,
-  "reason": "dead link"
  },
  {
   "title": "Viva Piñata",

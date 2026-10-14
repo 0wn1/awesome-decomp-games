@@ -687,5 +687,102 @@
   "type": "browser",
   "source": "manual",
   "description": "Diablo (DevilutionX-based) compiled to WebAssembly. Plays the free shareware demo instantly; load your own DIABDAT.MPQ for the full game."
+ },
+ {
+  "title": "Super Mario Galaxy (Nebula)",
+  "url": "https://github.com/keepvaibin/nebula",
+  "platform": "Wii",
+  "type": "recomp",
+  "source": "reddit:r/decomps",
+  "ai_flag": true,
+  "description": "Recompilation of Super Mario Galaxy for Windows, with macOS and Android planned. The author says large parts were written with AI. Bring your own game."
+ },
+ {
+  "title": "NHL 24 PC",
+  "url": "https://github.com/HajDEO/nhl24pc",
+  "platform": "PS4",
+  "type": "port",
+  "source": "reddit:r/decomps",
+  "description": "NHL 24 (PS4) running natively on Windows: a single-game shadPS4 fork with native system libraries, Vulkan rendering and a launcher that extracts your own PKG."
+ },
+ {
+  "title": "No One Lives Forever 2 (nolf2src)",
+  "url": "https://github.com/nolffan/nolf2src",
+  "platform": "PC",
+  "type": "port",
+  "source": "reddit:r/decomps",
+  "description": "NOLF2 built from Monolith's public 1.3 source release, with retail differences reconstructed to match the shipped binaries, plus a modern build with fixes and an FFmpeg-based Bink player."
+ },
+ {
+  "title": "Dragon Ball Z: Budokai Tenkaichi 2 (BT2 Recomp)",
+  "url": "https://github.com/oric212/BT2-Recomp",
+  "platform": "PS2",
+  "type": "recomp",
+  "source": "reddit:r/decomps",
+  "ai_flag": true,
+  "description": "Native Windows x64 recompilation of BT2 (SLUS-21441) using PS2Recomp. Early development, no playable build yet."
+ },
+ {
+  "title": "Apocalypse (Project Repocalypse)",
+  "url": "https://github.com/MustafaSamer93/Project_Repocalypse",
+  "platform": "PS1",
+  "type": "recomp",
+  "source": "reddit:r/decomps",
+  "ai_flag": true,
+  "description": "Static recompilation of the PS1 game Apocalypse (separate from the existing Apocalypse project)."
+ },
+ {
+  "title": "Way of the Samurai 2 (decomp_wots2)",
+  "url": "https://github.com/acklavidian/decomp_wots2",
+  "platform": "PS2",
+  "type": "decomp",
+  "source": "reddit:r/decomps",
+  "description": "Native Linux decompilation port of Way of the Samurai 2 (PS2). Linux only for now."
+ },
+ {
+  "title": "Battlezone: Rise of the Black Dogs (bzrecomp)",
+  "url": "https://github.com/wootbeer/bzrecomp",
+  "platform": "N64",
+  "type": "recomp",
+  "source": "reddit:r/decomps",
+  "description": "Native PC port of the 2000 N64 Battlezone via N64Recomp, N64ModernRuntime and RT64. Bring your own dump."
+ },
+ {
+  "title": "The Legend of Zelda: Skyward Sword (Skybreak)",
+  "url": "https://github.com/Kyra422/skybreak",
+  "platform": "Wii",
+  "type": "port",
+  "source": "reddit:r/decomps",
+  "description": "Experimental native PC port of Skyward Sword (Wii). No game assets included; your own copy is required."
+ },
+ {
+  "title": "xrevive",
+  "url": "https://github.com/Teraflopping/xrevive",
+  "platform": "Xbox",
+  "type": "tool",
+  "source": "reddit:r/decomps",
+  "description": "Desktop launcher for original Xbox games recompiled with Xrecomp, with xb.live online services. Used for the Ninja Gaiden Black PC port; downloads published game executables and needs your own ISO."
+ },
+ {
+  "title": "Super Mario Sunshine for Switch (sms-switch)",
+  "url": "https://github.com/chasem-dev/sms-switch",
+  "platform": "Switch",
+  "type": "mod",
+  "source": "reddit:r/decomps",
+  "mod_group": "Other mods & mashups",
+  "host": "Nintendo Switch (homebrew)",
+  "guest": "Super Mario Sunshine PC port",
+  "description": "The Super Mario Sunshine PC port built as a Switch homebrew NRO; reads assets from your own disc image. Early: boots in an emulator, untested on hardware."
+ },
+ {
+  "title": "WWF No Mercy for Meta Quest 3",
+  "url": "https://github.com/VistaLargaGames/WWF-No-Mercy-Quest-3-Standalone-",
+  "platform": "N64",
+  "type": "mod",
+  "source": "reddit:r/decomps",
+  "mod_group": "Other mods & mashups",
+  "host": "Meta Quest 3 (VR)",
+  "guest": "WWF No Mercy N64 recomp",
+  "description": "Standalone port of the WWF No Mercy N64 recomp that runs natively on Meta Quest 3 in VR; loads assets from your own 1.0 NA copy."
  }
 ]
