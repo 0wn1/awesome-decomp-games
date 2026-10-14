@@ -26,7 +26,7 @@
  {
   "title": "2009scape",
   "url": "https://2009scape.org",
-  "status": 200,
+  "status": 403,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
@@ -482,8 +482,8 @@
  {
   "title": "Barbarian",
   "url": "http://barbarian.1987.free.fr/indexEN.htm",
-  "status": 0,
-  "reason": "dead link"
+  "status": 200,
+  "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
   "title": "Battalion Wars 2",
@@ -600,6 +600,18 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
+  "title": "Bloodborne",
+  "url": "https://github.com/bloodborne-native/bloodborne-recomp",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "Bloodborne",
+  "url": "https://github.com/Astrr00/BloodbornePC",
+  "status": 200,
+  "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
   "title": "Bloody Roar",
   "url": "https://github.com/omegakatana92/Bloody-Roar",
   "status": 200,
@@ -710,8 +722,8 @@
  {
   "title": "Bugs Bunny & Taz: Time Busters",
   "url": "https://github.com/Ombelll/Bugs-bunny-and-taz-time-busters-decomp",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
+  "status": 404,
+  "reason": "dead link"
  },
  {
   "title": "Bully: Scholarship Edition",
@@ -746,12 +758,6 @@
  {
   "title": "Burnout 3: Takedown",
   "url": "https://github.com/matheuz232/Burnout-3-Recompiled",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Burnout CRASH!",
-  "url": "https://github.com/mpkonmbk/burnout-crash-recomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
@@ -1200,6 +1206,12 @@
   "reason": "quiver-only, <100 stars"
  },
  {
+  "title": "Crash Team Racing: Nitro-Fueled (CTR-NitroFueled-PC)",
+  "url": "https://github.com/GetLostIn/CTR-NitroFueled-PC",
+  "status": 200,
+  "reason": "portsdr-only, <10 stars, fork or not on GitHub"
+ },
+ {
   "title": "Crazy Taxi",
   "url": "https://github.com/sp00nznet/crazytaxi-ps3",
   "status": 200,
@@ -1558,12 +1570,6 @@
   "url": "https://github.com/bitten2up/RingRacers",
   "status": 200,
   "reason": "unbaked-only, <10 stars, fork or not on GitHub"
- },
- {
-  "title": "Dragon Age: Origins",
-  "url": "https://github.com/96dot/DAORecomp",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
   "title": "Dragon Ball Z: Budokai HD",
@@ -2104,6 +2110,12 @@
   "url": "https://github.com/minirop/fe3",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
+ },
+ {
+  "title": "Fire Emblem: Seima no Kouseki",
+  "url": "https://github.com/laqieer/fireemblem8j",
+  "status": 404,
+  "reason": "dead link"
  },
  {
   "title": "Fire Emblem: Shadow Dragon",
@@ -2762,7 +2774,7 @@
  {
   "title": "Hedgewars",
   "url": "http://webwars.link",
-  "status": 0,
+  "status": 400,
   "reason": "dead link"
  },
  {
@@ -2896,12 +2908,6 @@
   "url": "https://github.com/antxiko/HyperSports3-disassembly",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Hyrule Warriors: Definitive Edition (Hyrule Warriors: Definitive Edition Recomp)",
-  "url": "https://github.com/sonsegajp/HWDER",
-  "status": 200,
-  "reason": "quiver-only, <100 stars"
  },
  {
   "title": "Ico",
@@ -3080,12 +3086,6 @@
  {
   "title": "Kileak: The DNA Imperative",
   "url": "https://github.com/NJH-1001/KTDIR",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "Killzone",
-  "url": "https://github.com/drakolordx7/KillzoneRecomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
@@ -4188,12 +4188,6 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
-  "title": "Muscle March",
-  "url": "https://github.com/tmcleroy/muscle-march-recomp",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
   "title": "Mushihimesama Futari",
   "url": "https://github.com/springah/futari_recomp",
   "status": 200,
@@ -4207,7 +4201,7 @@
  },
  {
   "title": "MVP Baseball 2005",
-  "url": "https://github.com/ptitty12/decompile_mvp_04",
+  "url": "https://github.com/ptitty12/mvp2005-decomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
@@ -4778,8 +4772,8 @@
  {
   "title": "Pokémon FireRed / LeafGreen",
   "url": "https://github.com/mzafram2001/pkmn-reflux",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
+  "status": 404,
+  "reason": "dead link"
  },
  {
   "title": "Pokémon FireRed/LeafGreen",
@@ -4922,7 +4916,7 @@
  {
   "title": "PopRE Bug Tracker",
   "url": "https://www.populous3.info/bugs/my_view_page.php",
-  "status": 200,
+  "status": 403,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {
@@ -6594,12 +6588,6 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
-  "title": "Tekken 6",
-  "url": "https://github.com/GenryTheFox0/Project-Iron-6",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
   "title": "Tekken Tag Tournament 2 Wii U Edition",
   "url": "https://github.com/Petexy/Tekken-Tag-2-Recompiled",
   "status": 200,
@@ -6722,12 +6710,6 @@
  {
   "title": "The Amazing Spider-Man",
   "url": "https://github.com/Grien25/retasm",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
- },
- {
-  "title": "The Binding of Isaac",
-  "url": "https://github.com/whylurking/IsaacRecomp",
   "status": 200,
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
@@ -7086,12 +7068,6 @@
   "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
-  "title": "Tomb Raider (OpenLara)",
-  "url": "http://xproger.info/projects/OpenLara",
-  "status": 0,
-  "reason": "dead link"
- },
- {
   "title": "Tomba! 2: The Evil Swine Return",
   "url": "https://github.com/erneztox/tomba2-decomp",
   "status": 200,
@@ -7198,12 +7174,6 @@
   "url": "https://github.com/0danny/toy2-decomp",
   "status": 404,
   "reason": "dead link"
- },
- {
-  "title": "Toy Story 2: Buzz Lightyear to the Rescue",
-  "url": "https://github.com/Capridog/SpaceRanger",
-  "status": 200,
-  "reason": "recomp.fyi-only, <10 stars or fork"
  },
  {
   "title": "Toy Story 2: Buzz Lightyear to the Rescue",
@@ -7658,7 +7628,7 @@
  {
   "title": "Wing Commander 1 Reloaded",
   "url": "https://wingcomreloaded.itch.io/wingcommander1reloaded",
-  "status": 429,
+  "status": 200,
   "reason": "awesome-game-remakes-only, <20 stars"
  },
  {

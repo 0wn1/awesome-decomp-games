@@ -1079,5 +1079,14 @@
   "screenshot_score": 5,
   "locked": true,
   "screenshot_kind": "gameplay"
+ },
+ "https://github.com/d07RiV/diabloweb": {
+  "screenshot": "screenshots/browser-d07riv-diabloweb.jpg",
+  "screenshot_source": "live capture of https://d07riv.github.io/diabloweb/",
+  "screenshot_size": [
+   1280,
+   720
+  ],
+  "screenshot_score": 3
  }
 }
