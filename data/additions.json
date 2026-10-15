@@ -784,5 +784,72 @@
   "host": "Meta Quest 3 (VR)",
   "guest": "WWF No Mercy N64 recomp",
   "description": "Standalone port of the WWF No Mercy N64 recomp that runs natively on Meta Quest 3 in VR; loads assets from your own 1.0 NA copy."
+ },
+ {
+  "title": "BLACK (black-pc)",
+  "url": "https://github.com/Spark198rus/black-pc",
+  "platform": "Xbox",
+  "type": "port",
+  "source": "reddit:r/decomps",
+  "reddit_post": "https://www.reddit.com/r/decomps/comments/1x5rbwl/",
+  "reddit_user": "u/Dry-Recognition-8837",
+  "reddit_upvotes": 98,
+  "reddit_comments": 28,
+  "needs_assets": "byo",
+  "description": "Unofficial native Windows port of BLACK (Xbox, NTSC-U only): loads your own default.xbe and runs the original x86 game code directly on PC, with 4K, widescreen, 60fps and mouse look. Fully playable; no game data included. A different project from portingpete/Black-2006."
+ },
+ {
+  "title": "GoldenEye 007 XBLA PC Recomp",
+  "url": "https://github.com/CaiusCodes/GoldenEye-007-XBLA-PC-Recomp",
+  "platform": "Xbox 360",
+  "type": "recomp",
+  "source": "reddit:r/decomps",
+  "reddit_post": "https://www.reddit.com/r/decomps/comments/1x6fo2x/",
+  "reddit_user": "u/CaiusSmokes",
+  "reddit_upvotes": 19,
+  "reddit_comments": 2,
+  "needs_assets": "byo",
+  "description": "Native Windows static recompilation (ReXGlue) of the unreleased GoldenEye 007 Xbox 360/XBLA remaster: 4K/ultrawide, 60fps, keyboard and mouse, online play via virtual LAN, old/new graphics toggle. WIP; needs your own XBLA package."
+ },
+ {
+  "title": "Dragon Ball Z: Super Saiya Densetsu (Rust rewrite + HD remaster)",
+  "url": "https://github.com/JackRushante/DBZ-Super-Saiya-Densetsu-Rust",
+  "platform": "SNES",
+  "type": "recomp",
+  "source": "reddit:r/decomps",
+  "reddit_post": "https://www.reddit.com/r/decomps/comments/1x6fj6g/",
+  "reddit_user": "u/Jackrushante",
+  "reddit_upvotes": 42,
+  "reddit_comments": 17,
+  "needs_assets": "byo",
+  "ai_flag": true,
+  "description": "Rust rewrite of the 1992 SNES card RPG with a 65816-to-Rust static recompiler: Classic mode verified frame by frame against the original, plus a Remastered mode with HD art, 16:9 and new UI. Bring your own ROM; Windows only. Heavily AI-assisted (per the README)."
+ },
+ {
+  "title": "Zoo Tycoon 1 engine (zt1-engine)",
+  "url": "https://github.com/AlexC1991/zt1-engine",
+  "platform": "PC",
+  "type": "remake",
+  "source": "reddit:r/decomps",
+  "reddit_post": "https://www.reddit.com/r/decomps/comments/1x6gzxk/",
+  "reddit_user": "u/Batty25111",
+  "reddit_upvotes": 17,
+  "reddit_comments": 3,
+  "needs_assets": "byo",
+  "description": "OpenRCT2-style open-source engine for Zoo Tycoon 1 on modern Windows, using the original game as the spec. Needs your own Zoo Tycoon install. Fork of sharkwouter/zt1-engine."
+ },
+ {
+  "title": "Super Mario 64 in Scratch (sm64-scratch)",
+  "url": "https://github.com/naegoxdev/sm64-scratch",
+  "platform": "N64",
+  "type": "port",
+  "source": "reddit:r/decomps",
+  "reddit_post": "https://www.reddit.com/r/decomps/comments/1x6jw8a/",
+  "reddit_user": "u/Naegox",
+  "reddit_upvotes": 49,
+  "reddit_comments": 5,
+  "needs_assets": "byo",
+  "ai_flag": true,
+  "description": "Partial Super Mario 64 port in vanilla Scratch blocks, with gameplay systems translated from the community SM64 source with AI help. Beta 0.1.0 has the intro, castle grounds, part of the castle and Bob-omb Battlefield (4 stars). Python scripts build a playable .sb3 from your own US ROM; run it in TurboWarp. There's no hosted build."
  }
 ]
