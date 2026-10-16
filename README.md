@@ -2,7 +2,7 @@
 # Awesome Decomp Games [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <p align="center">
-  <a href="https://games.omgithub.com/?tag=decomp">
+  <a href="https://games.omgithub.com/">
     <img src="assets/play-decomp-games.svg" alt="Play Decomp Games" width="800">
   </a>
 </p>
